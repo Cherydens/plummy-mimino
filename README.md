@@ -1,3 +1,7 @@
+МАКЕТ  https://www.figma.com/file/Q21nmbOP9MlUnHqwToEvkw/Mimino-New?node-id=0%3A1&t=H2FbtD6C2rttEm8R-1
+
+ТЗ  https://docs.google.com/document/d/19XA6lxWoJTgssMOjQjXIakMHUKHbVOfLfreF90Q8jI4/edit
+
 # Vanilla App Template
 
 Цей проект було створено за допомогою Vite. Для знайомства та налаштування
