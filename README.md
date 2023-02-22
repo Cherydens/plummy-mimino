@@ -1,6 +1,14 @@
-МАКЕТ  https://www.figma.com/file/Q21nmbOP9MlUnHqwToEvkw/Mimino-New?node-id=0%3A1&t=H2FbtD6C2rttEm8R-1
+МАКЕТ
+https://www.figma.com/file/Q21nmbOP9MlUnHqwToEvkw/Mimino-New?node-id=0%3A1&t=H2FbtD6C2rttEm8R-1
 
-ТЗ  https://docs.google.com/document/d/19XA6lxWoJTgssMOjQjXIakMHUKHbVOfLfreF90Q8jI4/edit
+ТЗ
+https://docs.google.com/document/d/19XA6lxWoJTgssMOjQjXIakMHUKHbVOfLfreF90Q8jI4/edit
+
+Інструкція
+https://docs.google.com/document/d/1Vl03Kls99V_MhHY95USt_WVtfeBIAlCoQEtXLCUuexI/edit#
+
+Матеріали
+https://docs.google.com/presentation/d/1_QpjBvS2UnU_OKJUgzx6eXqTZVXrOFRJ/edit#slide=id.p3
 
 # Vanilla App Template
 
