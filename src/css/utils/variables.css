@@ -1,2 +1,16 @@
 :root {
+  --light-theme-background-color: #f6f6f6;
+  --dark-theme-background-color: #121212;
+  --secondary-header-background-color: #ffffff;
+
+  --light-theme-text-color: #121212;
+  --dark-theme-text-color: #f6f6f6;
+  --secondary-light-theme-text-color: #000000;
+
+  --light-theme-subtitle-color: #484848;
+
+  --menu-description-color: rgba(216, 215, 215, 0.5);
+  --menu-weight-color: #d8d7d7;
+
+  --rating-description-color: #575757;
 }
