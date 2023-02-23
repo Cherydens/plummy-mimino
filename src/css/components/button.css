@@ -1,0 +1,18 @@
+.btn {
+  padding: 9px 24px;
+  margin-bottom: 204px;
+
+  font-family: inherit;
+  font-weight: 400;
+
+  letter-spacing: -0.02em;
+  text-align: center;
+  text-transform: uppercase;
+
+  border-width: 0.8px;
+  border-style: solid;
+  border-color: inherit;
+
+  border-radius: 32px;
+  background: transparent;
+}
