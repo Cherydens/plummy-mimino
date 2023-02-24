@@ -4,19 +4,23 @@
 }
 
 .four-seater-title {
-  font-size: 29px;
+  font-size: 28px;
   line-height: 0.93;
   letter-spacing: -0.02em;
-  text-transform: uppercase;
   color: var(--light-theme-text-color);
   margin-bottom: 32px;
+}
+
+@media screen and (min-width: 375px) {
+  .four-seater-title {
+    font-size: 32px;
+  }
 }
 
 .four-seater-desc {
   font-size: 14px;
   line-height: 1.29;
   letter-spacing: -0.02em;
-  text-transform: uppercase;
   color: var(--light-theme-text-color);
   margin-bottom: 28px;
 }
@@ -35,7 +39,7 @@
   }
 
   .four-seater-title {
-    font-size: 32px;
+    font-size: 40px;
     line-height: 1.1;
   }
   .four-seater-buttons {
@@ -50,10 +54,6 @@
 }
 
 @media screen and (min-width: 1440px) {
-  .four-seater-title {
-    margin-bottom: 40px;
-    font-size: 40px;
-  }
   .four-seater-wrap {
     display: flex;
   }
