@@ -1,3 +1,5 @@
+/* ====MAIN PAGE===== */
+
 .main-page-title {
   font-weight: 500;
   font-size: 40px;
@@ -6,7 +8,15 @@
   color: var(--light-theme-title-color);
 }
 
-.hero-pages-title {
+@media screen and (min-width: 768px) {
+  .main-page-title {
+    font-size: 68px;
+  }
+}
+
+/* ======HERO======= */
+
+.hero-title {
   font-weight: 400;
   font-size: 40px;
   line-height: 1;
@@ -14,6 +24,21 @@
   letter-spacing: -0.02em;
   color: var(--light-theme-title-color);
 }
+
+@media screen and (min-width: 768px) {
+  .hero-title {
+    font-size: 80px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hero-title {
+    font-size: 90px;
+  }
+}
+
+/* ======DOUBLE LUXURY ROOM==== */
+/* =======RESTAURANT====== */
 
 .dark-theme-title {
   font-size: 28px;
@@ -23,6 +48,32 @@
   color: var(--dark-theme-text-color);
 }
 
+@media screen and (min-width: 768px) {
+  .dark-theme-title {
+    font-size: 40px;
+    line-height: 1.1;
+  }
+}
+
+/* =======RESTAURANT====== */
+.dark-theme-subtitle {
+  font-style: italic;
+  font-size: 18px;
+  line-height: 1.33;
+
+  letter-spacing: -0.02em;
+  color: var(--dark-theme-title-color);
+}
+
+@media screen and (min-width: 768px) {
+  .dark-theme-subtitle {
+    font-size: 24px;
+    line-height: 1;
+  }
+}
+
+/* ======HOTEL===== */
+
 .hotel-title {
   font-size: 32px;
   line-height: 0.94;
@@ -30,6 +81,15 @@
   letter-spacing: -0.02em;
   color: var(--light-theme-title-color);
 }
+
+@media screen and (min-width: 768px) {
+  .hotel-title {
+    font-size: 40px;
+    line-height: 1.1;
+  }
+}
+
+/* =======MODALS WINDOWS====== */
 
 .modal-title {
   font-weight: 500;
@@ -45,29 +105,5 @@
   .modal-title {
     font-size: 36px;
     line-height: 1.11;
-  }
-
-  .main-title {
-    font-size: 68px;
-  }
-
-  .pages-hero-title {
-    font-size: 80px;
-  }
-
-  .room-title {
-    font-size: 40px;
-    line-height: 1.1;
-  }
-
-  .hotel-title {
-    font-size: 40px;
-    line-height: 1.1;
-  }
-}
-
-@media screen and (min-width: 1440px) {
-  .pages-hero-title {
-    font-size: 90px;
   }
 }
