@@ -62,11 +62,25 @@
 .welcome-block-content{
         display: block;
 }
- .welcome-block-title{
+ /* .welcome-block-title{
     margin-bottom: 310px;
- }
+ } */
+ 
   .welcome-block-subtitle{
     width: 100%;
     margin-bottom: 24px;
+  }
+ .welcome-block-container{
+display: flex;
+flex-direction: row-reverse;
+gap: 32px;
+  }
+  .welcome-wrapp{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .welcome-block-title{
+    margin-bottom: 2px;
   }
 }
