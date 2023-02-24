@@ -1,0 +1,70 @@
+
+@media screen and (max-width:767px) {
+.seater-desc:not(:last-child){
+margin-bottom: 24px;
+}
+.seater-desc:last-child{
+margin-bottom: 28px;
+} 
+}
+
+.triple-room-section{
+padding-top: 64px;
+}
+
+.seater-desc{
+font-size: 14px;
+line-height: 1.29;
+letter-spacing: -0.02em;
+}
+
+.seater-buttons{
+gap: 14px;
+display: flex;
+}
+
+@media screen and (max-width: 1439px){
+.four-seater-title{
+margin-bottom: 32px;
+}
+}
+
+@media screen and (min-width: 768px) {
+.triple-room-section{
+padding-top: 80px;
+}
+.seater-desc {
+margin-bottom: 40px;
+font-size: 18px;
+line-height: 1.33;
+margin-bottom: 0;
+max-width: 355px;
+}
+
+.triple-desc-wrap{
+display: flex;
+gap: 32px;
+margin-bottom: 40px;
+}
+
+.four-seater-buttons {
+justify-content: end;
+}
+}
+
+@media screen and (min-width:1440px) {
+.seater-wrapper{
+display: flex;
+flex-direction: row-reverse;
+}
+.seater-buttons{
+margin-right: auto;
+align-items: start;
+}
+.triple-room-section{
+padding-top: 100px;
+}
+.triple-desc-wrap{
+margin-bottom: 0;
+}
+}
