@@ -12,6 +12,7 @@
 font-size:32px;
 line-height: 86%;
     margin-bottom: 32px;
+    max-width: 335px;
 }
 
 .welcome-block__subtitle {
