@@ -1,0 +1,54 @@
+/* ====HERO==== */
+
+.hero-desc {
+  font-size: 14px;
+  line-height: 1.29;
+
+  letter-spacing: 0.05em;
+  color: var(--light-theme-text-color);
+}
+
+/* ====MAIN PAGE TEXT==== */
+/* =====MODAL WINDOWS TEXT==== */
+
+.main-desc {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+
+  letter-spacing: -0.02em;
+}
+
+/* ======SECOND PAGE TEXT===== */
+.second-desc {
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+}
+
+@media screen and (min-width: 768px) {
+  .second-desc {
+    font-size: 18px;
+    line-height: 1.33;
+  }
+}
+
+/*======RESTAURANT MENU TEXT==== */
+
+.dish-desc {
+  font-family: 'Geometria';
+
+  font-size: 10px;
+  line-height: 1.4;
+
+  letter-spacing: 0.18em;
+
+  color: rgba(216, 215, 215, 0.5);
+}
+
+@media screen and (min-width: 768px) {
+  .dish-desc {
+    font-size: 12px;
+    line-height: 1.5;
+  }
+}
