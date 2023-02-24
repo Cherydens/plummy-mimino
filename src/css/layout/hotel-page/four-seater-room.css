@@ -1,0 +1,71 @@
+.four-seater-room-section{
+padding-top: 64px;
+padding-bottom: 64px;
+}
+
+.four-seater-list {
+}
+
+.four-seater-title {
+font-size: 32px;
+line-height: 0.93;
+letter-spacing: -0.02em;
+text-transform: uppercase;
+color: var( --light-theme-text-color);
+margin-bottom: 32px;
+}
+
+.four-seater-desc {
+font-size: 14px;
+line-height: 1.29;
+letter-spacing: -0.02em;
+text-transform: uppercase;
+color: var(--light-theme-text-color);
+margin-bottom: 28px;
+}
+
+.buttons{
+display: flex;
+gap: 14px;
+}
+
+.btn {
+width: 128px;
+height: 34px;
+border: 0.8px solid var(--light-theme-text-color);
+border-radius: 32px;
+background-color: transparent;
+font-size: 14px;
+letter-spacing: -0.02em;
+text-transform: uppercase;
+}
+
+@media screen and (min-width:768px){
+.four-seater-desc{
+max-width: 475px;
+margin-bottom: 40px;
+font-size: 18px;
+line-height: 1.33;
+}
+
+.four-seater-title{
+font-size: 40px;
+line-height: 1.1;
+}
+.buttons{
+justify-content: end;
+}
+
+}
+
+@media screen and (min-width:1440px){
+.four-seater-title{
+margin-bottom: 40px;
+}
+.four-seater-wrap{
+display: flex;
+}
+.buttons{
+margin-left: auto;
+}
+}
