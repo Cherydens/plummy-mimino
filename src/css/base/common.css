@@ -1,4 +1,10 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'DM Sans', sans-serif;
   /* font-family: 'Geometria', sans-serif; */
+  text-transform: uppercase;
+  background-color: var(--light-theme-background-color);
 }

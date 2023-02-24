@@ -1,18 +1,29 @@
 :root {
+  /* Background Color */
   --light-theme-background-color: #f6f6f6;
   --dark-theme-background-color: #121212;
   --secondary-header-background-color: #ffffff;
 
+  /* Title Color */
+  --light-theme-title-color: #121212;
+  --dark-theme-title-color: #f6f6f6;
+  --secondary-light-theme-title-color: #000000;
+
+  /* Subtitle Color */
+  --light-theme-subtitle-color: #484848;
+
+  /* Text Color */
   --light-theme-text-color: #121212;
   --dark-theme-text-color: #f6f6f6;
   --secondary-light-theme-text-color: #000000;
 
-  --light-theme-subtitle-color: #484848;
-
+  /* Restaurant Menu */
   --menu-description-color: rgba(216, 215, 215, 0.5);
   --menu-weight-color: #d8d7d7;
 
+  /* Rating Description Color */
   --rating-description-color: #575757;
 
+  /* Transition Function */
   --time-function: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
