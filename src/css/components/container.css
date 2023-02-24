@@ -1,3 +1,4 @@
+/* Container */
 .container {
   padding-left: 15px;
   padding-right: 15px;
@@ -20,5 +21,82 @@
 @media screen and (min-width: 1440px) {
   .container {
     width: 1406px;
+  }
+}
+
+/* Hero Container */
+.hero-container {
+  padding-left: 20px;
+}
+
+@media screen and (min-width: 375px) {
+  .hero-container {
+    width: 375px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hero-container {
+    width: 768px;
+    padding-left: 36px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hero-container {
+    width: 1440px;
+    padding-left: 32px;
+  }
+}
+
+/* Main-Page Hero Container */
+.main-page-hero-container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media screen and (min-width: 375px) {
+  .main-page-hero-container {
+    width: 365px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .main-page-hero-container {
+    width: 734px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .main-page-hero-container {
+    width: 1440px;
+    padding-left: 32px;
+    padding-right: 0;
+  }
+}
+
+/* Modal Window Container */
+.modal-container {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+@media screen and (min-width: 375px) {
+  .modal-container {
+    width: 335px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .modal-container {
+    width: 628px;
+    padding-left: 32px;
+    padding-right: 32px;
   }
 }
