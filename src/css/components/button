@@ -1,0 +1,105 @@
+.btn {
+  padding: 8px 18px;
+
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+
+  letter-spacing: -0.02em;
+  text-align: center;
+  text-transform: uppercase;
+
+  border-width: 0.8px;
+  border-style: solid;
+
+  border-radius: 32px;
+  background: transparent;
+}
+
+/* =====LIGHT====== */
+
+.btn-light-theme {
+  color: var(--light-theme-text-color);
+  border-color: var(--light-theme-text-color);
+
+  transition: color var(--time-function), background-color var(--time-function),
+    boder-color var(--time-function), box-shadow var(--time-function);
+}
+
+.btn-light-theme:hover,
+.btn-light-theme:focus {
+  color: var(--dark-theme-text-color);
+  border-color: var(--dark-theme-text-color);
+  background: var(--dark-theme-background-color);
+}
+
+.btn-light-theme:focus {
+  box-shadow: -14px 24px 68px -16px rgba(0, 0, 0, 0.12);
+}
+
+/* ======DARK====== */
+
+.btn-dark-theme {
+  color: var(--dark-theme-text-color);
+  border-color: var(--dark-theme-text-color);
+
+  transition: color var(--time-function), background-color var(--time-function),
+    box-shadow var(--time-function);
+}
+
+.btn-dark-theme:hover,
+.btn-dark-theme:focus {
+  color: var(--light-theme-text-color);
+  background: #ffffff;
+}
+
+.btn-dark-theme:focus {
+  box-shadow: -14px 24px 68px -16px rgba(255, 255, 255, 0.15);
+}
+
+/* --btn-dark--в моб.версії зв.увагу на padding i line-height!!! */
+
+@media screen and (min-width: 768px) {
+  .btn {
+    padding: 8px 24px;
+    line-height: 1.71;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .btn {
+    padding: 9px 24px;
+    font-size: 18px;
+    line-height: 1.33;
+  }
+}
+
+/* =======MODAL BUTTON========= */
+
+.btn-modal {
+  padding: 14px;
+  min-width: 235px;
+
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+
+  color: var(--dark-theme-text-color);
+
+  border: 0.8px solid var(--dark-theme-text-color);
+  border-radius: 32px;
+  background: transparent;
+}
+
+@media screen and (min-width: 768px) {
+  .btn-modal {
+    min-width: 444px;
+    font-size: 18px;
+    line-height: 1.33;
+  }
+}
