@@ -36,8 +36,9 @@
   padding-bottom: 80px;
 }  
     .welcome-block-title{
-        font-size: 36px;
-       line-height: 1.1;
+       
+    
+       max-width: 434px;
         margin-bottom: 50px;
     }
     .welcome-block-subtitle{
