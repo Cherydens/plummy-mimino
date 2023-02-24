@@ -100,3 +100,28 @@
     padding-right: 32px;
   }
 }
+
+/* Restaurant Menu Container */
+.restaurant-menu-container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media screen and (min-width: 375px) {
+  .restaurant-menu-container {
+    width: 365px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .restaurant-menu-container {
+    width: 545px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .restaurant-menu-container {
+    width: 1132px;
+  }
+}
