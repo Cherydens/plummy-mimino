@@ -1,9 +1,10 @@
 .btn {
-  padding: 9px 24px;
-  margin-bottom: 204px;
+  padding: 8px 18px;
 
   font-family: inherit;
   font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
 
   letter-spacing: -0.02em;
   text-align: center;
@@ -11,8 +12,91 @@
 
   border-width: 0.8px;
   border-style: solid;
-  border-color: inherit;
 
   border-radius: 32px;
   background: transparent;
+}
+
+/* =====LIGHT====== */
+
+.btn-light {
+  color: #121212;
+  border: #121212;
+
+  transition: color var(), background-color var(), boder-color var();
+}
+
+.btn-light:hover,
+.btn-light:focus {
+  color: #f7f7f7;
+  border-color: #f7f7f7;
+  background: #121212;
+}
+
+.btn-light:focus {
+  box-shadow: -14px 24px 68px -16px rgba(0, 0, 0, 0.12);
+}
+
+/* ======DARK====== */
+
+.btn-dark {
+  color: #f7f7f7;
+  border-color: #f7f7f7;
+
+  transition: color var(), background-color var();
+}
+
+.btn-dark:hover,
+.btn-dark:focus {
+  color: #121212;
+  background: #ffffff;
+}
+
+.btn-dark:focus {
+  box-shadow: -14px 24px 68px -16px rgba(255, 255, 255, 0.15);
+}
+
+/* --btn-dark--в моб.версії зв.увагу на padding i line-height!!! */
+
+@media screen and (min-width: 768px) {
+  .btn {
+    padding: 8px 24px;
+    line-height: 1.71;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .btn {
+    padding: 9px 24px;
+    font-size: 18px;
+    line-height: 1.33;
+  }
+}
+
+/* =======MODAL BUTTON========= */
+
+.btn-modal {
+  padding: 14px 0;
+  width: 235px;
+
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+
+  color: #f7f7f7;
+
+  border: 0.8px solid #f7f7f7;
+  border-radius: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .btn-modal {
+    width: 444px;
+    font-size: 18px;
+    line-height: 1.33;
+  }
 }
