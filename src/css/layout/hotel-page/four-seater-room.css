@@ -21,21 +21,10 @@
   margin-bottom: 28px;
 }
 
-.buttons {
+.four-seater-buttons {
   display: flex;
   gap: 14px;
 }
-
-/* .btn {
-  width: 128px;
-  height: 34px;
-  border: 0.8px solid var(--light-theme-text-color);
-  border-radius: 32px;
-  background-color: transparent;
-  font-size: 14px;
-  letter-spacing: -0.02em;
-  text-transform: uppercase;
-} */
 
 @media screen and (min-width: 768px) {
   .four-seater-desc {
@@ -49,7 +38,7 @@
     font-size: 40px;
     line-height: 1.1;
   }
-  .buttons {
+  .four-seater-buttons {
     justify-content: end;
   }
 }
@@ -61,7 +50,8 @@
   .four-seater-wrap {
     display: flex;
   }
-  .buttons {
+  .four-seater-buttons {
     margin-left: auto;
+    align-items: start;
   }
 }
