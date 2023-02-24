@@ -36,7 +36,7 @@
 /*======RESTAURANT MENU TEXT==== */
 
 .dish-desc {
-  font-family: 'Geometria';
+  font-family: 'Geometria', sans-serif;
 
   font-size: 10px;
   line-height: 1.4;
