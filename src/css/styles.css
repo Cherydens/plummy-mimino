@@ -44,6 +44,9 @@
 /* Footer */
 @import url('./layout/footer.css');
 
+/* Backdrop for Modal Windows */
+@import url('./components/backdrop.css');
+
 /* Book a Room Modal window */
 @import url('./layout/book-a-room-modal-window.css');
 
