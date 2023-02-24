@@ -60,6 +60,15 @@
       .welcome-block-section {
   padding-top: 100px;
   padding-bottom: 100px;
-} 
-
+}  
+.welcome-block-content{
+        display: block;
+}
+ .welcome-block-title{
+    margin-bottom: 310px;
+ }
+  .welcome-block-subtitle{
+    width: 100%;
+    margin-bottom: 24px;
+  }
 }
