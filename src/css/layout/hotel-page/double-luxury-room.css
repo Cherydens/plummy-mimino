@@ -1,0 +1,18 @@
+.double-room-section{
+padding-top: 64px;
+}
+
+.double-seater-buttons{
+display: flex;
+gap: 14px;
+}
+
+@media screen and (min-width:1440px){
+.double-seater-buttons{
+    margin-left: auto;
+}
+.double-seater-wrap{
+display: flex;
+align-items: start;
+}
+}
