@@ -11,21 +11,16 @@
 }
 
 .welcome-block-subtitle {
-  font-style: Regular;
   font-size: 14px;
   line-height: 1.2;
   margin-bottom: 32px;
 }
 .welcome-block-text {
-  font-style: Regular;
   font-size: 14px;
   line-height: 1.2;
   margin-bottom: 32px;
 }
 .welcome-block-image img {
-  display: block;
-  width: 100%;
-  height: auto;
   object-fit: contain;
 }
 
