@@ -15,9 +15,36 @@
     </p>
     </div>
     </div>
-    
     <div class="welcome-block-image">
-  <img src="" alt="complex-image" class="left-image"/>
+ <picture>
+                  <source
+                    srcset="
+                     img/jpg/home/desktop/home-comfort.jpg   1x,
+                      img/jpg/home/desktop/home-comfort@2x.jpg  2x
+                    "
+                    media="(min-width: 1200px)"
+                    type="image/jpeg"
+                  />
+                 
+                  <source
+                    srcset="
+                      img/jpg/home/desktop/home-comfort.jpg    1x,
+                     img/jpg/home/desktop/home-comfort@2x.jpg  2x
+                    "
+                    media="(min-width: 768px)"
+                    type="image/jpeg"
+                  />
+                
+                  <source
+                    srcset="
+                      img/jpg/home/desktop/home-comfort.jpg   1x,
+                     img/jpg/home/desktop/home-comfort@2x.jpg 2x
+                    "
+                    media="(max-width: 767px)"
+                    type="image/jpeg"
+                  />
+                  <img src="img/jpg/home/desktop/home-comfort.jpg" alt="home-comfort" />
+                </picture>
     </div>
   </div>
 </section>
