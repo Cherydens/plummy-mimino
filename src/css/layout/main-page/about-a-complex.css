@@ -120,8 +120,8 @@
 
   .about-complex-restaurant-img:nth-child(2) {
     left: 300px;
-    top: 50%;
-    transform: translateY(-50%);
+    top: 209px;
+
     z-index: 1;
   }
 
