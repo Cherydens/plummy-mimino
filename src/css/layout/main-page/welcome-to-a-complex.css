@@ -36,6 +36,7 @@
   padding-bottom: 80px;
 }  
     .welcome-block-title{
+      font-size: 36px;
        max-width: 434px;
         margin-bottom: 50px;
     }
@@ -61,10 +62,11 @@
 }  
 .welcome-block-content{
         display: block;
+        margin-bottom: 0px;
 }
- /* .welcome-block-title{
-    margin-bottom: 310px;
- } */
+ .welcome-block-title{
+   font-size: 36px;
+ }
  
   .welcome-block-subtitle{
     width: 100%;
