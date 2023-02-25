@@ -4,7 +4,7 @@
 }
 
 .four-seater-title {
-  font-size: 28px;
+  font-size: 26px;
   line-height: 0.93;
   letter-spacing: -0.02em;
   color: var(--light-theme-text-color);
@@ -45,12 +45,10 @@
   .four-seater-buttons {
     justify-content: end;
   }
-  .four-seater-room-section{
+  .four-seater-room-section {
     padding-top: 80px;
     padding-bottom: 80px;
   }
-
-  
 }
 
 @media screen and (min-width: 1440px) {
@@ -61,11 +59,11 @@
     margin-left: auto;
     align-items: start;
   }
-   .four-seater-room-section{
+  .four-seater-room-section {
     padding-top: 100px;
     padding-bottom: 100px;
-   }
-   .four-seater-title{
+  }
+  .four-seater-title {
     margin-bottom: 40px;
-   }
+  }
 }
