@@ -1,0 +1,49 @@
+.title-room-hero {
+  padding-top: 40px;
+  margin-bottom: 24px;
+  width: 270px;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+}
+.span-fint {
+  font-style: italic;
+}
+.slick-room {
+  width: 100%;
+  height: 429px;
+  margin-top: 40px;
+  background-color: antiquewhite;
+}
+.text-room-hero {
+  margin-top: 40px;
+  margin-bottom: 64px;
+  width: 279px;
+  height: 74px;
+  font-size: 14px;
+  line-height: 1.29;
+}
+@media screen and (min-width: 1440px) {
+  .div-title-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  }
+  .slick-room {
+    margin-left: 112px;
+  }
+  .div-desctop {
+    display: flex;
+    align-items: center;
+  }
+.title-room-hero {
+  width: 590px;
+font-weight: 400;
+font-size: 80px;
+margin-bottom: 32px;
+}
+.div-text {
+  margin-top: -75px;
+}
+}
