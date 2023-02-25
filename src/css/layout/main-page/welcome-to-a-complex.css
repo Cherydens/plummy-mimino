@@ -61,6 +61,7 @@
 }  
 .welcome-block-content{
         display: block;
+        margin-bottom: 0px;
 }
  /* .welcome-block-title{
     margin-bottom: 310px;
