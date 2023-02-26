@@ -45,8 +45,6 @@
   width: 263px;
 }
 
-/* =====FIRST BLOCK===== */
-
 .about-complex-restaurant-wrap {
   height: 615px;
 
@@ -65,8 +63,6 @@
   left: 123px;
   z-index: 1;
 }
-
-/* ======SECOND BLOCK==== */
 
 .about-complex-buseiness-wrap {
   height: 333px;
@@ -184,6 +180,5 @@
   .about-complex-business-desc {
     gap: 54px;
     margin-right: 87px;
-    margin-top: 0;
   }
 }
