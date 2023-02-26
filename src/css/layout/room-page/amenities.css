@@ -15,6 +15,7 @@
 }
 
 .amenities-list-general {
+  margin-top: 0px;
   margin-bottom: 40px;
 }
 
@@ -86,6 +87,17 @@
     position: absolute;
     bottom: 114px;
   }
+  .amenities-title{
+    font-size: 40px;
+    margin-bottom: 40px;
+    width: 100%;
+  }
+  .amenities-list-item{
+    font-size: 18px;
+  }
+  .amenities-list-general{
+    margin-top: 0px;
+  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -107,6 +119,22 @@
     position: absolute;
     bottom: 114px;
   }
+  .amenities-title{
+    font-size: 40px;
+    margin-bottom: 40px;
+    width: 100%;
+  }
+  .amenities-list-item{
+    font-size: 18px;
+  }
+.amenities-list-general {
+  margin: 0;
+  margin-bottom: 0px;
+}
+
+.amenities-list-general:last-child {
+  margin-bottom: 0px;
+}
   .btn-book{
     margin-left: 560px;
   }
@@ -115,9 +143,17 @@
  flex-wrap: wrap;
  
   }
-  .colum{
+  .column-menu-amenities{
     width:50%;
+    margin-bottom: 100px;
   }
+  .column-menu-amenities:last-child{
+    margin-bottom: -72px;
+  }
+  .amenities-image-wrapper{
+    margin-bottom: 0px;
+  }
+  
  
 }
 
