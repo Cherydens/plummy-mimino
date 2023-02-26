@@ -1,0 +1,72 @@
+.section-amenities {
+  padding-top: 40px;
+  padding-bottom: 64px;
+  background-color: #121212;
+  color: aliceblue;
+}
+.amenities-title {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  color: var(--dark-theme-title-color);
+
+  margin-bottom: 28px;
+}
+.amenities-list-general {
+  margin-bottom: 40px;
+}
+.amenities-list-general:last-child {
+  margin-bottom: 64px;
+}
+.amenities-list-item {
+  margin-left: -20px;
+}
+
+.amenities-image {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+  margin-bottom: 32px;
+  position: relative;
+}
+.small-image {
+  position: absolute;
+  left: -25px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  
+}
+.btn-book{
+    padding: 8px 40px;
+
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+
+  letter-spacing: -0.02em;
+  text-align: center;
+  text-transform: uppercase;
+
+  border-width: 0.8px;
+  border-style: solid;
+
+  border-radius: 32px;
+  background: transparent;
+}
+
+.amenities-button {
+    display: flex;
+    justify-content: center;
+
+}
+/* .image-style{
+    position: relative;
+} */
+/* .small-image{
+    position: absolute;
+    top: 0;
+    left: 0;
+} */
