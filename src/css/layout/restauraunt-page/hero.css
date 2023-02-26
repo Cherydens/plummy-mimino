@@ -1,0 +1,53 @@
+.restaurant-hero {
+  padding-top: 40px;
+}
+
+.restaurant-hero-title {
+  margin-bottom: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .restaurant-hero-title {
+    margin-bottom: 32px;
+  }
+}
+
+.restaurant-hero-buttons {
+  display: flex;
+  gap: 12px;
+
+  margin-bottom: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .restaurant-hero-buttons {
+    gap: 14px;
+  }
+}
+
+.restaurant-hero-slider {
+  display: flex;
+}
+
+@media screen and (max-width: 1439px) {
+  .restaurant-hero-slider {
+    margin-bottom: 40px;
+  }
+}
+
+.restaurant-hero-text {
+  max-width: 338px;
+}
+
+@media screen and (min-width: 1440px) {
+  .restaurant-hero-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  /* preview to show space-betwn*/
+  .restaurant-hero-slider {
+    max-width: 700px;
+  }
+}
