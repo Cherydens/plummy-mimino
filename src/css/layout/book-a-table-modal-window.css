@@ -1,0 +1,51 @@
+.modal-table-form {
+  max-width: 564px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 40px 32px;
+}
+
+.modal-table-form-inner {
+  display: flex;
+  gap: 0 32px;
+  margin-bottom: 80px;
+}
+
+.modal-table-wrapper {
+  position: relative;
+}
+
+.modal-table-wrapper::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-image: url(../img/icons/arrow.svg);
+  pointer-events: none;
+}
+
+.modal-table {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  padding-bottom: 18px;
+
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #f7f7f7;
+  background-color: transparent;
+  border: none;
+  border-bottom: 0.8px solid rgba(247, 247, 247, 0.2);
+  margin-bottom: 8px;
+  outline: none;
+  cursor: pointer;
+}

@@ -93,7 +93,7 @@
 
   border: 0.8px solid var(--dark-theme-text-color);
   border-radius: 32px;
-  background: transparent;
+  background-color: transparent;
 }
 
 @media screen and (min-width: 768px) {
