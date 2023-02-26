@@ -6,6 +6,22 @@ margin-bottom: 24px;
 .seater-desc:last-child{
 margin-bottom: 28px;
 } 
+.seater-list{
+display: flex;
+gap: 20px;
+flex-wrap: wrap;
+}
+
+.triple-wrapper{
+display: flex;
+flex-direction: column;
+row-gap: 20px;
+margin-bottom: 32px;
+}
+.triple-wrap{
+display: flex;
+column-gap: 20px;
+}
 }
 
 .triple-room-section{
@@ -50,6 +66,18 @@ margin-bottom: 40px;
 .four-seater-buttons {
 justify-content: end;
 }
+
+.triple-wrapper{
+display: flex;
+gap: 32px;
+margin-bottom: 40px;
+}
+.triple-wrap{
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+gap: 32px;
+}
 }
 
 @media screen and (min-width:1440px) {
@@ -66,5 +94,20 @@ padding-top: 100px;
 }
 .triple-desc-wrap{
 margin-bottom: 0;
+}
+
+.triple-wrapper{
+display: flex;
+position: relative;
+flex-direction: column;
+margin-bottom: 50px;
+gap: 0;
+}
+.triple-wrap{
+display: flex;
+flex-direction: row-reverse;
+align-items: center;
+justify-content: space-between;
+height: 762px;
 }
 }

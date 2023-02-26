@@ -1,0 +1,90 @@
+.double-seater-buttons {
+  display: flex;
+  gap: 14px;
+}
+
+.double-wrapper {
+  margin-bottom: 32px;
+}
+
+@media screen and (max-width: 767px) {
+  .double-wrapper {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  .double-wrap {
+    display: flex;
+    column-gap: 19px;
+  }
+  .btn{
+    padding: 8px 18px;
+    line-height: 1.28;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .double-seater-buttons {
+    justify-content: flex-end;
+  }
+  .double-wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 32px;
+    margin-bottom: 40px;
+  }
+  .double-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    gap: 32px;
+  }
+  .btn{
+  padding: 8px 24px;
+  line-height: 1.71;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .double-room-section {
+    padding-top: 100px;
+  }
+
+  .double-wrapper {
+    display: flex;
+    gap: 0;
+    position: relative;
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+
+  .picture-bedroom {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+  }
+
+  .double-wrap {
+    height: 762px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .double-seater-buttons {
+    margin-left: auto;
+  }
+
+  .double-seater-wrap {
+    display: flex;
+    align-items: start;
+  }
+   .btn{
+  padding: 9px 24px;
+  line-height: 1.33;
+  font-size: 18px;
+  }
+}
