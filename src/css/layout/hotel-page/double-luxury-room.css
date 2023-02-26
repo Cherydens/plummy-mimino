@@ -7,12 +7,32 @@ display: flex;
 gap: 14px;
 }
 
+.double-seater-first{
+display: flex;
+}
+
+@media screen and (min-width: 768px){
+.double-seater-buttons{
+justify-content: flex-end;
+}  
+
+}
+
 @media screen and (min-width:1440px){
 .double-seater-buttons{
-    margin-left: auto;
+margin-left: auto;
 }
 .double-seater-wrap{
 display: flex;
 align-items: start;
+}
+}
+
+@media screen and (max-width:767px) {
+.double-seater-list{
+display: flex;
+column-gap: 19px;
+row-gap: 20px;
+flex-wrap: wrap;
 }
 }
