@@ -2,11 +2,6 @@
   padding: 64px 0;
 }
 
-/* .about-complex-container {
-  display: flex;
-  gap: 64px;
-} */
-
 .about-complex-wrap {
   position: relative;
   width: 100%;
@@ -32,7 +27,8 @@
   color: var(--light-theme-subtitle-color);
 }
 
-.main-desc {
+.about-complex-restaurant-desc .main-desc,
+.about-complex-business-desc .main-desc {
   color: var(--light-theme-text-color);
 }
 
@@ -56,12 +52,6 @@
 
   margin-bottom: 32px;
 }
-
-
-/* .about-complex-restaurant-img:nth-child(1) {
-  top: 0;
-  left: 0;
-} */
 
 .about-complex-restaurant-img:nth-child(2) {
   position: absolute;
