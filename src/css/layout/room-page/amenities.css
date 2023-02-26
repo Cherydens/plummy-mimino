@@ -2,7 +2,7 @@
   padding-top: 40px;
   padding-bottom: 64px;
   background-color: #121212;
-  color: aliceblue;
+  color: var(--dark-theme-title-color);
 }
 .amenities-title {
   font-weight: 700;
@@ -24,9 +24,9 @@
 }
 
 .amenities-image {
-    display: flex;
-    justify-content: flex-end;
-    width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
   margin-bottom: 32px;
   position: relative;
 }
@@ -36,10 +36,10 @@
   top: 50%;
   transform: translateY(-50%);
   z-index: 1;
-  
 }
-.btn-book{
-    padding: 8px 40px;
+/* довелося  переписати стилі бо кнопка відрізняеться в цій секції від інших  */
+.btn-book {
+  padding: 8px 40px;
 
   font-family: inherit;
   font-weight: 400;
@@ -56,17 +56,21 @@
   border-radius: 32px;
   background: transparent;
 }
+/* ----------------------------------------------------------- */
 
 .amenities-button {
-    display: flex;
-    justify-content: center;
-
+  display: flex;
+  justify-content: center;
 }
-/* .image-style{
-    position: relative;
-} */
-/* .small-image{
-    position: absolute;
-    top: 0;
-    left: 0;
-} */
+@media screen and (min-width: 768px) {
+  .section-amenities {
+    padding-top: 80px;
+    padding-bottom: 229px;
+  }
+  .amenities-title {
+    margin-bottom: 40px;
+  }
+  .amenities-image {
+    margin-bottom: 0px;
+  }
+}
