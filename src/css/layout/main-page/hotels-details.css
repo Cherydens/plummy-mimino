@@ -1,0 +1,73 @@
+.hotels-details {
+  padding: 32px 0;
+  background: var(--dark-theme-background-color);
+}
+
+.hotels-details-desc {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  width: 335px;
+}
+
+.hotels-details-desc .main-page-title {
+  color: var(--dark-theme-title-color);
+}
+
+.hotels-details-desc .main-desc {
+  color: var(--dark-theme-text-color);
+}
+
+.hotels-details-btn {
+  text-align: center;
+  margin: auto;
+  width: 263px;
+}
+
+.hotels-details-btn > .btn:not(:last-child) {
+  margin-right: 10px;
+}
+
+.hotels-details-btn-open {
+}
+
+.hotels-details-btn-room {
+}
+
+.btn-dark-theme {
+}
+
+@media screen and (min-width: 768px) {
+  .hotels-details {
+    padding: 44px 0;
+  }
+
+  .hotels-details-desc {
+    flex-direction: row;
+    align-items: center;
+    width: 602px;
+  }
+
+  .hotels-details-btn {
+    width: 283px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hotels-details-container {
+    position: relative;
+  }
+
+  .hotels-details {
+    padding-bottom: 60px;
+  }
+
+  .hotels-details-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 342px;
+    margin: 0;
+    /* align-self: flex-end; */
+  }
+}
