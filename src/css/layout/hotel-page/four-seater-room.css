@@ -9,6 +9,7 @@
   letter-spacing: -0.02em;
   color: var(--light-theme-text-color);
   margin-bottom: 32px;
+  margin-top: 32px;
 }
 
 @media screen and (min-width: 375px) {
@@ -42,6 +43,7 @@
   .four-seater-title {
     font-size: 40px;
     line-height: 1.1;
+    margin-top: 40px;
   }
   .four-seater-buttons {
     justify-content: end;
@@ -68,5 +70,6 @@
    }
    .four-seater-title{
     margin-bottom: 40px;
+    margin-top: 50px;
    }
 }
