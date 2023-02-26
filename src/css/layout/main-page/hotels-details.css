@@ -3,9 +3,6 @@
   background: var(--dark-theme-background-color);
 }
 
-.container {
-}
-
 .hotels-details-desc {
   display: flex;
   flex-direction: column;
@@ -19,9 +16,6 @@
 
 .hotels-details-desc .main-desc {
   color: var(--dark-theme-text-color);
-}
-
-.hotels-details-img {
 }
 
 .hotels-details-btn {
@@ -66,10 +60,6 @@
 
   .hotels-details {
     padding-bottom: 60px;
-  }
-
-  .hotels-details-desc {
-    /* align-self: flex-start; */
   }
 
   .hotels-details-btn {
