@@ -4,37 +4,24 @@
   background-color: var(--dark-theme-background-color);
 }
 
-/* $('.fade').slick({
-  dots: true,
-  infinite: true,
-  speed: 500,
-  fade: true,
-  cssEase: 'linear'
-}); */
-
 .restaurant-menu-title {
   font-size: 32px;
   line-height: 1.25;
   letter-spacing: -0.02em;
-  text-transform: uppercase;
   color: var(--dark-theme-title-color);
   text-align: center;
   margin-bottom: 36px;
 }
-.restaurant-menu-course-list {
-}
 
-.restaurant-menu-course-item {
+.restaurant-menu-wrapp {
   margin-bottom: 45px;
 }
-.restaurant-menu-wrapp {
-}
+
 .reataurant-menu-course-subtitle {
   font-style: italic;
   font-size: 18px;
   line-height: 1.33;
   letter-spacing: -0.02em;
-  text-transform: uppercase;
   color: var(--dark-theme-title-color);
   margin-bottom: 32px;
 }
@@ -42,8 +29,7 @@
   text-transform: none;
   color: var(--dark-theme-title-color);
 }
-.restaurant-menu-item {
-}
+
 .restaurant-menu-item::after {
   display: inline-block;
   content: '';
@@ -54,17 +40,17 @@
 .restaurant-menu-item-name {
   display: flex;
   justify-content: space-between;
-  min-width: 335px;
-  gap: 16px;
+  width: 100%;
   margin-bottom: 8px;
+  gap: 20px;
 }
 .restaurant-menu-item-discr {
   display: flex;
   justify-content: space-between;
-  min-width: 335px;
+  width: 100%;
   align-items: flex-start;
-  gap: 24px;
   margin-bottom: 14px;
+  gap: 20px;
 }
 
 .reataurant-menu-subtitle {
@@ -107,6 +93,14 @@
 }
 
 @media screen and (min-width: 375px) {
+  .restaurant-menu-item-name {
+    max-width: 335px;
+    gap: 20px;
+  }
+  .restaurant-menu-item-discr {
+    max-width: 335px;
+    gap: 24px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -119,7 +113,7 @@
     line-height: 1.1;
     margin-bottom: 64px;
   }
-  .restaurant-menu-course-item {
+  .restaurant-menu-wrapp {
     margin-bottom: 49px;
   }
   .reataurant-menu-course-subtitle {
@@ -175,7 +169,7 @@
   .restaurant-menu-title {
     margin-bottom: 100px;
   }
-  .restaurant-menu-course-item {
+  .restaurant-menu-wrapp {
     margin-bottom: 56px;
   }
   .restaurant-menu-course-item-desserts {
