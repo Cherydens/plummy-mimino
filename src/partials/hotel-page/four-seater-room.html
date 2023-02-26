@@ -1,7 +1,6 @@
 <section class="four-seater-room-section">
   <div class="container">
-    <ul class="double-seater-list list">
-      <li class="four-seater-item">
+      <div class="double-wrapper">
       <picture>
       <source srcset="img/jpg/hotel/desktop/hotel-four-room2.jpg 1x ,
       img/jpg/hotel/desktop/hotel-four-room2@2x.jpg 2x" media="(min-width: 1440px)"
@@ -11,35 +10,18 @@
       img/jpg/hotel/tablet/hotel-four-room2@2x.jpg 2x" media="(min-width: 768px)"
       type="image/jpeg">
 
-      <source srcset="img/jpg/hotel/mobile/hotel-four-room1.jpg 1x ,
-      img/jpg/hotel/mobile/hotel-four-room1@2x.jpg 2x" media="(max-width: 767px)"
-      type="image/jpeg">
-
-      <img src="img/jpg/hotel/mobile/hotel-four-room1.jpg " alt="bedroom-photo" />
-      </picture>
-      </li>
-
-      <li class="four-seater-item">
-       <picture>
-      <source srcset="img/jpg/hotel/desktop/hotel-four-room3.jpg 1x ,
-      img/jpg/hotel/desktop/hotel-four-room3@2x.jpg 2x" media="(min-width: 1440px)"
-      type="image/jpeg">
-
-      <source srcset="img/jpg/hotel/tablet/hotel-four-room1.jpg 1x ,
-      img/jpg/hotel/tablet/hotel-four-room1@2x.jpg 2x" media="(min-width: 768px)"
-      type="image/jpeg">
-
       <source srcset="img/jpg/hotel/mobile/hotel-four-room2.jpg 1x ,
       img/jpg/hotel/mobile/hotel-four-room2@2x.jpg 2x" media="(max-width: 767px)"
       type="image/jpeg">
-      <img src="img/jpg/hotel/mobile/hotel-four-room2.jpg" alt="bathroom-photo" />
+
+      <img src="img/jpg/hotel/mobile/hotel-four-room2.jpg " alt="bedroom-photo" class="picture-bedroom" />
       </picture>
-      </li>
-    
-      <li class="four-seater-item">
-      <picture>
-      <source srcset="img/jpg/hotel/desktop/hotel-four-room1.jpg 1x ,
-      img/jpg/hotel/desktop/hotel-four-room1@2x.jpg 2x" media="(min-width: 1440px)"
+     
+       <div class="double-wrap">
+      
+       <picture>
+      <source srcset="img/jpg/hotel/desktop/hotel-four-room3.jpg 1x ,
+      img/jpg/hotel/desktop/hotel-four-room3@2x.jpg 2x" media="(min-width: 1440px)"
       type="image/jpeg">
 
       <source srcset="img/jpg/hotel/tablet/hotel-four-room3.jpg 1x ,
@@ -49,11 +31,26 @@
       <source srcset="img/jpg/hotel/mobile/hotel-four-room3.jpg 1x ,
       img/jpg/hotel/mobile/hotel-four-room3@2x.jpg 2x" media="(max-width: 767px)"
       type="image/jpeg">
-
-      <img src="img/jpg/hotel/mobile/hotel-four-room3.jpg" alt="kitchen-photo" />
+      <img src="img/jpg/hotel/mobile/hotel-four-room3.jpg" alt="bathroom-photo" />
       </picture>
-      </li>
-    </ul>
+    
+      <picture>
+      <source srcset="img/jpg/hotel/desktop/hotel-four-room1.jpg 1x ,
+      img/jpg/hotel/desktop/hotel-four-room1@2x.jpg 2x" media="(min-width: 1440px)"
+      type="image/jpeg">
+
+      <source srcset="img/jpg/hotel/tablet/hotel-four-room1.jpg 1x ,
+      img/jpg/hotel/tablet/hotel-four-room1@2x.jpg 2x" media="(min-width: 768px)"
+      type="image/jpeg">
+
+      <source srcset="img/jpg/hotel/mobile/hotel-four-room1.jpg 1x ,
+      img/jpg/hotel/mobile/hotel-four-room1@2x.jpg 2x" media="(max-width: 767px)"
+      type="image/jpeg">
+
+      <img src="img/jpg/hotel/mobile/hotel-four-room1.jpg" alt="kitchen-photo" />
+      </picture>
+      </div>
+      </div>
     <div class="four-seater-wrap">
       <div class="four-seater-wrapper">
         <h2 class="four-seater-title">four-seater room</h2>
@@ -66,7 +63,9 @@
       </div>
       <div class="four-seater-buttons">
         <a href="./room.html" class="btn btn-light-theme link">More details</a>
-        <button type="button" class="btn btn-light-theme" js-open-modal data-modal="3">View prices</button>
+
+        <button type="button" class="btn btn-light-theme js-open-modal"  data-modal="3">View prices</button>
+
       </div>
     </div>
   </div>

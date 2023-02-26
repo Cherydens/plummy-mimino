@@ -1,0 +1,72 @@
+.modal-price-room {
+  overflow: auto;
+  height: 100%;
+}
+
+.modal-book-a-room-form {
+  max-width: 564px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 40px 32px;
+}
+
+.modal-book-a-room-wrapper {
+  position: relative;
+}
+
+.modal-book-a-room-wrapper::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-image: url(../img/icons/arrow.svg);
+  pointer-events: none;
+}
+
+.modal-book-a-room {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  padding-bottom: 18px;
+
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: var(--dark-theme-text-color);
+  background-color: transparent;
+  border: none;
+  border-bottom: 0.8px solid rgba(247, 247, 247, 0.2);
+  margin-bottom: 8px;
+  outline: none;
+  cursor: pointer;
+}
+
+.modal-book-a-room-form-inner {
+  display: flex;
+  gap: 40px 32px;
+  margin-bottom: 80px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+input[type='date']::-webkit-calendar-picker-indicator {
+  opacity: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .modal-price-room {
+    overflow: auto;
+    height: auto;
+  }
+  .modal-book-a-room-form-inner {
+    margin-bottom: 0;
+  }
+}
