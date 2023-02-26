@@ -98,16 +98,16 @@ margin-bottom: 0;
 
 .triple-wrapper{
 display: flex;
-height: 762px;
 position: relative;
 flex-direction: column;
-padding-top: 151px;
 margin-bottom: 50px;
+gap: 0;
 }
 .triple-wrap{
 display: flex;
 flex-direction: row-reverse;
 align-items: center;
 justify-content: space-between;
+height: 762px;
 }
 }
