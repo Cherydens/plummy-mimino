@@ -107,6 +107,18 @@
     position: absolute;
     bottom: 114px;
   }
+  .btn-book{
+    margin-left: 560px;
+  }
+  .amenities-content{
+ display: flex;
+ flex-wrap: wrap;
+ 
+  }
+  .colum{
+    width:50%;
+  }
+ 
 }
 
 /* ----------------------------------------------------------- */
