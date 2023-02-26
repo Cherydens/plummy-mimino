@@ -11,76 +11,72 @@
 }
 
 .welcome-block-subtitle {
-  font-style: Regular;
   font-size: 14px;
   line-height: 1.2;
   margin-bottom: 32px;
 }
 .welcome-block-text {
-  font-style: Regular;
   font-size: 14px;
   line-height: 1.2;
   margin-bottom: 32px;
- 
 }
 .welcome-block-image img {
-    display: block;
-    width: 100%;
-    height: auto;
-    object-fit: contain;
+  object-fit: contain;
 }
 
-@media screen and (min-width:768px){
+@media screen and (min-width: 768px) {
   .welcome-block-section {
-  padding-top: 80px;
-  padding-bottom: 80px;
-}  
-    .welcome-block-title{
-       max-width: 434px;
-        margin-bottom: 50px;
-    }
-    .welcome-block-subtitle{
-        width: 100%;
-      margin-bottom: 0px;
-    }
-    .welcome-block-text{
-        width: 100%;
-        margin-bottom: 0px;
-    }
-    .welcome-block-content{
-        display: flex;
-        gap: 32px;
-        width: 704px;
-        margin-bottom: 40px;
-    }
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .welcome-block-title {
+    font-size: 36px;
+    max-width: 434px;
+    margin-bottom: 50px;
+  }
+  .welcome-block-subtitle {
+    width: 100%;
+    margin-bottom: 0px;
+  }
+  .welcome-block-text {
+    width: 100%;
+    margin-bottom: 0px;
+  }
+  .welcome-block-content {
+    display: flex;
+    gap: 32px;
+    width: 704px;
+    margin-bottom: 40px;
+  }
 }
-@media screen and (min-width:1440px){
-      .welcome-block-section {
-  padding-top: 100px;
-  padding-bottom: 100px;
-}  
-.welcome-block-content{
-        display: block;
-}
- /* .welcome-block-title{
-    margin-bottom: 310px;
- } */
- 
-  .welcome-block-subtitle{
+@media screen and (min-width: 1440px) {
+  .welcome-block-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .welcome-block-content {
+    display: block;
+    margin-bottom: 0px;
+  }
+  .welcome-block-title {
+    font-size: 36px;
+  }
+
+  .welcome-block-subtitle {
     width: 100%;
     margin-bottom: 24px;
   }
- .welcome-block-container{
-display: flex;
-flex-direction: row-reverse;
-gap: 32px;
+  .welcome-block-container {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 32px;
   }
-  .welcome-wrapp{
+  .welcome-wrapp {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
   }
-  .welcome-block-title{
+  .welcome-block-title {
     margin-bottom: 5px;
   }
 }
