@@ -13,11 +13,11 @@
   width: 335px;
 }
 
-.main-page-title {
+.hotels-details-desc .main-page-title {
   color: var(--dark-theme-title-color);
 }
 
-.main-desc {
+.hotels-details-desc .main-desc {
   color: var(--dark-theme-text-color);
 }
 
@@ -25,14 +25,21 @@
 }
 
 .hotels-details-btn {
-  display: flex;
-  justify-content: space-between;
+  text-align: center;
   margin: auto;
   width: 263px;
 }
 
-.btn {
+.hotels-details-btn > .btn:not(:last-child) {
+  margin-right: 10px;
 }
+
+.hotels-details-btn-open {
+}
+
+.hotels-details-btn-room {
+}
+
 .btn-dark-theme {
 }
 
@@ -54,9 +61,7 @@
 
 @media screen and (min-width: 1440px) {
   .hotels-details-container {
-    display: inline-flex;
     position: relative;
-    width: 100%;
   }
 
   .hotels-details {
