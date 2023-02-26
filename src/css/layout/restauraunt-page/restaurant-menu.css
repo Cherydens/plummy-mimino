@@ -4,14 +4,6 @@
   background-color: var(--dark-theme-background-color);
 }
 
-/* $('.fade').slick({
-  dots: true,
-  infinite: true,
-  speed: 500,
-  fade: true,
-  cssEase: 'linear'
-}); */
-
 .restaurant-menu-title {
   font-size: 32px;
   line-height: 1.25;
@@ -21,14 +13,11 @@
   text-align: center;
   margin-bottom: 36px;
 }
-.restaurant-menu-course-list {
-}
 
 .restaurant-menu-course-item {
   margin-bottom: 45px;
 }
-.restaurant-menu-wrapp {
-}
+
 .reataurant-menu-course-subtitle {
   font-style: italic;
   font-size: 18px;
@@ -42,8 +31,7 @@
   text-transform: none;
   color: var(--dark-theme-title-color);
 }
-.restaurant-menu-item {
-}
+
 .restaurant-menu-item::after {
   display: inline-block;
   content: '';
@@ -54,17 +42,17 @@
 .restaurant-menu-item-name {
   display: flex;
   justify-content: space-between;
-  min-width: 335px;
-  gap: 16px;
+  width: 100%;
   margin-bottom: 8px;
+  gap: 20px;
 }
 .restaurant-menu-item-discr {
   display: flex;
   justify-content: space-between;
-  min-width: 335px;
+  width: 100%;
   align-items: flex-start;
-  gap: 24px;
   margin-bottom: 14px;
+  gap: 20px;
 }
 
 .reataurant-menu-subtitle {
@@ -107,6 +95,14 @@
 }
 
 @media screen and (min-width: 375px) {
+  .restaurant-menu-item-name {
+    max-width: 335px;
+    gap: 20px;
+  }
+  .restaurant-menu-item-discr {
+    max-width: 335px;
+    gap: 24px;
+  }
 }
 
 @media screen and (min-width: 768px) {
