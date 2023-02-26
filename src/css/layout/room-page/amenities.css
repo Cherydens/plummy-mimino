@@ -1,43 +1,55 @@
 .section-amenities {
   padding-top: 40px;
   padding-bottom: 64px;
-  background-color: #121212;
+  background-color: var(--dark-theme-background-color);
   color: var(--dark-theme-title-color);
 }
+
 .amenities-title {
   font-weight: 700;
   font-size: 28px;
   line-height: 1.1;
   letter-spacing: -0.02em;
   color: var(--dark-theme-title-color);
-
   margin-bottom: 28px;
 }
+
 .amenities-list-general {
   margin-bottom: 40px;
 }
+
 .amenities-list-general:last-child {
   margin-bottom: 64px;
 }
+
 .amenities-list-item {
   margin-left: -20px;
 }
 
-.amenities-image {
-  display: flex;
-  justify-content: flex-end;
-  width: 100%;
-  margin-bottom: 32px;
+.amenities-image-wrapper {
   position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-bottom: 32px;
 }
-.small-image {
+
+.amenities-big-image {
+  margin-left: auto;
+}
+
+.amenities-small-image {
   position: absolute;
-  left: -25px;
-  top: 50%;
-  transform: translateY(-50%);
   z-index: 1;
+  left: 0;
+  top: 144px;
 }
-/* довелося  переписати стилі бо кнопка відрізняеться в цій секції від інших  */
+
+.amenities-button {
+  text-align: center;
+}
+
 .btn-book {
   padding: 8px 40px;
 
@@ -56,13 +68,54 @@
   border-radius: 32px;
   background: transparent;
 }
+
+@media screen and (min-width: 768px) {
+  .section-amenities {
+    padding-bottom: 80px;
+  }
+
+  .amenities-container {
+    position: relative;
+  }
+
+  .amenities-small-image {
+    top: 157px;
+  }
+
+  .amenities-button {
+    position: absolute;
+    bottom: 114px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .section-amenities {
+    padding-top: 94px;
+    padding-bottom: 100px;
+  }
+
+  .amenities-small-image {
+    left: 528px;
+    top: 157px;
+  }
+
+  .amenities-container {
+    position: relative;
+  }
+
+  .amenities-button {
+    position: absolute;
+    bottom: 114px;
+  }
+}
+
 /* ----------------------------------------------------------- */
 
-.amenities-button {
+/* .amenities-button {
   display: flex;
   justify-content: center;
-}
-@media screen and (min-width: 768px) {
+} */
+/* @media screen and (min-width: 768px) {
   .section-amenities {
     padding-top: 80px;
     padding-bottom: 229px;
@@ -73,4 +126,4 @@
   .amenities-image {
     margin-bottom: 0px;
   }
-}
+} */
