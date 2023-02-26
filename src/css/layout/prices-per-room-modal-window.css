@@ -49,16 +49,6 @@
 
 /* Стили для кнопок. Мы ведь порядочные разработчики, негоже простые ссылки оставлять */
 
-a {
-  padding: 20px;
-  display: inline-block;
-  text-decoration: none;
-  background-color: #414b52;
-  margin: 10px;
-  color: var(--dark-theme-text-color);
-  border-radius: 3px;
-}
-
 .modal-price-title {
   margin-bottom: 44px;
 }
