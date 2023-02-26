@@ -6,6 +6,11 @@ margin-bottom: 24px;
 .seater-desc:last-child{
 margin-bottom: 28px;
 } 
+.seater-list{
+display: flex;
+gap: 20px;
+flex-wrap: wrap;
+}
 }
 
 .triple-room-section{
