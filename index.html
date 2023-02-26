@@ -26,7 +26,7 @@
     <!-- Base Styles -->
     
     <script type="module" crossorigin src="/plummy-mimino/assets/modal-99b2ed47.js"></script>
-    <link rel="stylesheet" href="/plummy-mimino/assets/modal-a5c891a6.css">
+    <link rel="stylesheet" href="/plummy-mimino/assets/modal-803c93b2.css">
   </head>
 
   <body>
@@ -38,7 +38,7 @@
 
     <!-- Header -->
     <!--header-->
-<header class="header">
+<header class="header-bg">
   <div class="container header-container">
     <nav class="header-nav">
       <a class="header-nav-link link current" href="./index.html">home</a>
@@ -128,9 +128,9 @@
     </div>
     <div class="menu-nav-soc">
       <nav class="menu-nav">
-        <a class="menu-nav-link link current" href="#home">home</a>
-        <a class="menu-nav-link link" href="#hotel">hotel</a>
-        <a class="menu-nav-link link" href="#restaurant">restaurant</a>
+        <a class="menu-nav-link link" href="./index.html">home</a>
+        <a class="menu-nav-link link" href="./hotel.html">hotel</a>
+        <a class="menu-nav-link link" href="./restaurant.html">restaurant</a>
       </nav>
       <ul class="menu-mobile-list list">
         <li>
@@ -402,7 +402,7 @@
   </div>
 </section>
 
-      <section class="hotels-details">
+      <!-- <section class="hotels-details">
   <div class="hotels-details-container container">
     <div class="hotels-details-desc">
       <h2 class="main-page-title">Hotel</h2>
@@ -411,16 +411,151 @@
         luxury at our hotel. We guarantee you'll be thrilled with your decision.
       </p>
     </div>
-    <img src="" alt="" />
-    <div class="hotels-details-img">
-      <img src="" alt="" />
-      <img src="" alt="" />
-      <img src="" alt="" />
-      <img src="" alt="" />
+    <picture class="">
+      <source
+        srcset="
+          ./img/jpg/home/desktop/home-hotel-room3.jpg    1x,
+          ./img/jpg/home/desktop/home-hotel-room3@2x.jpg 2x
+        "
+        media="(min-width: 1440px)"
+      />
+      <source
+        srcset="
+          ./img/jpg/home/tablet/home-hotel-room3.jpg    1x,
+          ./img/jpg/home/tablet/home-hotel-room3@2x.jpg 2x
+        "
+        media="(min-width: 768px)"
+      />
+
+      <source
+        srcset="
+          ./img/jpg/home/mobile/home-hotel-room3.jpg    1x,
+          ./img/jpg/home/mobile/home-hotel-room3@2x.jpg 2x
+        "
+        media="(max-width: 767px)"
+      />
+      <source srcset="./img 1x, ./img 2x" media="(max-width: 768px)" />
+      <img
+        src="./img/jpg/home/mobile/home-hotel-room3.jpg"
+        alt="a big bed in a room"
+      />
+    </picture>
+    <div class="hotels-details-bath">
+      <picture class="">
+        <source
+          srcset="
+            ./img/jpg/home/desktop/home-hotel-room1.jpg    1x,
+            ./img/jpg/home/desktop/home-hotel-room1@2x.jpg 2x
+          "
+          media="(min-width: 1440px)"
+        />
+        <source
+          srcset="
+            ./img/jpg/home/tablet/home-hotel-room1.jpg    1x,
+            ./img/jpg/home/tablet/home-hotel-room1@2x.jpg 2x
+          "
+          media="(min-width: 768px)"
+        />
+
+        <source
+          srcset="
+            ./img/jpg/home/mobile/home-hotel-room1.jpg    1x,
+            ./img/jpg/home/mobile/home-hotel-room1@2x.jpg 2x
+          "
+          media="(max-width: 767px)"
+        />
+        <source srcset="./img 1x, ./img 2x" media="(max-width: 768px)" />
+        <img
+          src="./img/jpg/home/mobile/home-hotel-room1.jpg"
+          alt="two bottles of a soap and towels on a table"
+        />
+      </picture>
+      <picture class="">
+        <source
+          srcset="
+            ./img/jpg/home/desktop/home-hotel-room2.jpg    1x,
+            ./img/jpg/home/desktop/home-hotel-room2@2x.jpg 2x
+          "
+          media="(min-width: 1440px)"
+        />
+        <source
+          srcset="
+            ./img/jpg/home/tablet/home-hotel-room2.jpg    1x,
+            ./img/jpg/home/tablet/home-hotel-room2@2x.jpg 2x
+          "
+          media="(min-width: 768px)"
+        />
+
+        <source
+          srcset="
+            ./img/jpg/home/mobile/home-hotel-room2.jpg    1x,
+            ./img/jpg/home/mobile/home-hotel-room2@2x.jpg 2x
+          "
+          media="(max-width: 767px)"
+        />
+        <source srcset="./img 1x, ./img 2x" media="(max-width: 768px)" />
+        <img src="./img/jpg/home/mobile/home-hotel-room2.jpg" alt="a bath" />
+      </picture>
     </div>
-    <div class="responsive">
-      <div><img src="" alt="" /></div>
-      <div><img src="" alt="" /></div>
+    <div class="hotels-details-washbasins">
+      <picture class="">
+        <source
+          srcset="
+            ./img/jpg/home/desktop/home-hotel-room4.jpg    1x,
+            ./img/jpg/home/desktop/home-hotel-room4@2x.jpg 2x
+          "
+          media="(min-width: 1440px)"
+        />
+        <source
+          srcset="
+            ./img/jpg/home/tablet/home-hotel-room4.jpg    1x,
+            ./img/jpg/home/tablet/home-hotel-room4@2x.jpg 2x
+          "
+          media="(min-width: 768px)"
+        />
+
+        <source
+          srcset="
+            ./img/jpg/home/mobile/home-hotel-room4.jpg    1x,
+            ./img/jpg/home/mobile/home-hotel-room4@2x.jpg 2x
+          "
+          media="(max-width: 767px)"
+        />
+        <source srcset="./img 1x, ./img 2x" media="(max-width: 768px)" />
+        <img
+          src="./img/jpg/home/table/home-hotel-room4.jpg"
+          alt="two wash basins"
+        />
+      </picture>
+      <picture class="">
+        <source
+          srcset="
+            ./img/jpg/home/desktop/home-hotel-room5.jpg    1x,
+            ./img/jpg/home/desktop/home-hotel-room5@2x.jpg 2x
+          "
+          media="(min-width: 1440px)"
+        />
+        <source
+          srcset="
+            ./img/jpg/home/tablet/home-hotel-room5.jpg    1x,
+            ./img/jpg/home/tablet/home-hotel-room5@2x.jpg 2x
+          "
+          media="(min-width: 768px)"
+        />
+
+        <source
+          srcset="
+            ./img/jpg/home/mobile/home-hotel-room5.jpg    1x,
+            ./img/jpg/home/mobile/home-hotel-room5@2x.jpg 2x
+          "
+          media="(max-width: 767px)"
+        />
+        <source srcset="./img 1x, ./img 2x" media="(max-width: 768px)" />
+        <img
+          src="./img/jpg/home/tablet/home-hotel-room5.jpg"
+          alt="a tube and small box on a shelf before a mirror"
+        />
+      </picture>
     </div>
     <div class="hotels-details-btn">
       <button
@@ -433,7 +568,7 @@
       <button type="submit" class="btn-dark-theme btn">View room</button>
     </div>
   </div>
-</section>
+</section> -->
 
       <section class="location-and-contacts">
     <div class="container location-and-contacts-container">
@@ -462,7 +597,6 @@
 
     <!-- Backdrop for Modal Windows -->
     <div class="jjs-backdrop-modal">
-      
       <!-- Book a Table Modal window -->
       
 
