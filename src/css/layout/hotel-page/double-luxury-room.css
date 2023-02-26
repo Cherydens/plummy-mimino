@@ -17,6 +17,10 @@
     display: flex;
     column-gap: 19px;
   }
+  .btn{
+    padding: 8px 18px;
+    line-height: 1.28;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -35,6 +39,10 @@
     align-items: flex-end;
     justify-content: flex-end;
     gap: 32px;
+  }
+  .btn{
+  padding: 8px 24px;
+  line-height: 1.71;
   }
 }
 
@@ -73,5 +81,10 @@
   .double-seater-wrap {
     display: flex;
     align-items: start;
+  }
+   .btn{
+  padding: 9px 24px;
+  line-height: 1.33;
+  font-size: 18px;
   }
 }
