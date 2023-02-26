@@ -25,17 +25,197 @@
 
     <!-- Base Styles -->
     
-    <script type="module" crossorigin src="/plummy-mimino/assets/modal-416ea25c.js"></script>
-    <link rel="stylesheet" href="/plummy-mimino/assets/modal-fc020277.css">
+    <script type="module" crossorigin src="/plummy-mimino/assets/modal-99b2ed47.js"></script>
+    <link rel="stylesheet" href="/plummy-mimino/assets/modal-7b85eb03.css">
   </head>
   <body>
     <!-- Header -->
-    
+    <!--header-->
+<header class="header">
+  <div class="container header-container">
+    <nav class="header-nav">
+      <a class="header-nav-link link current" href="./index.html">home</a>
+      <a class="header-nav-link link" href="./hotel.html">hotel</a>
+      <a class="header-nav-link link" href="./restaurant.html">restaurant</a>
+    </nav>
+    <button class="btn-menu" type="button" js-open-menu>
+      <svg class="icon-menu-open">
+        <use href="../img/icons/sprite.svg#btn-open"></use>
+      </svg>
+    </button>
+    <div class="header-logo-div">
+      <a class="header-logo link" href="./index.html">mimino</a>
+      <p class="header-text">restaurant-hotel complex</p>
+    </div>
+    <ul class="header-list list">
+      <li class="header-soc-item">
+        <a
+          href="https://www.instagram.com"
+          target="_blank"
+          class="header-soc-link"
+        >
+          <svg class="header-soc-icon" width="24" height="24">
+            <use href="../img/icons/sprite.svg#instagram"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="header-soc-item">
+        <a
+          href="https://www.facebook.com"
+          target="_blank"
+          class="header-soc-link"
+        >
+          <svg class="header-soc-icon" width="24" height="24">
+            <use href="../img/icons/sprite.svg#facebook"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="header-soc-item">
+        <a href="https://twitter.com" target="_blank" class="header-soc-link">
+          <svg class="header-soc-icon" width="24" height="24">
+            <use href="../img/icons/sprite.svg#twitter"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
+  </div>
+</header>
+<!---->
+
+<!--mobile menu-->
+<div class="is-hidden" js-menu-container>
+  <div class="menu-container animate__animated animate__bounce">
+    <div class="menu-header">
+      <button class="btn-menu" type="button" js-close-menu>
+        <svg class="icon-menu-close">
+          <use href="../img/icons/sprite.svg#btn-close"></use>
+        </svg>
+      </button>
+      <div class="header-logo-div">
+        <a class="header-logo link" href="">mimino</a>
+        <p class="header-text">restaurant-hotel complex</p>
+      </div>
+      <ul class="menu-tablet-list list">
+        <li>
+          <a href="https://www.instagram.com" target="_blank">
+            <svg class="menu-soc-icon" width="24" height="24">
+              <use href="../img/icons/sprite.svg#instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com" target="_blank">
+            <svg class="menu-soc-icon" width="24" height="24">
+              <use href="../img/icons/sprite.svg#facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="https://twitter.com" target="_blank">
+            <svg class="menu-soc-icon" width="24" height="24">
+              <use href="../img/icons/sprite.svg#twitter"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="menu-nav-soc">
+      <nav class="menu-nav">
+        <a class="menu-nav-link link current" href="#home">home</a>
+        <a class="menu-nav-link link" href="#hotel">hotel</a>
+        <a class="menu-nav-link link" href="#restaurant">restaurant</a>
+      </nav>
+      <ul class="menu-mobile-list list">
+        <li>
+          <a href="https://www.instagram.com" target="_blank">
+            <svg class="menu-soc-icon" width="20" height="20">
+              <use href="../img/icons/sprite.svg#instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com" target="_blank">
+            <svg class="menu-soc-icon" width="20" height="20">
+              <use href="../img/icons/sprite.svg#facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="https://twitter.com" target="_blank">
+            <svg class="menu-soc-icon" width="20" height="20">
+              <use href="../img/icons/sprite.svg#twitter"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
 
 
     <!-- Main -->
     <main>
-      
+      <section class="room-page-hero-section">
+  <div class="hero-container div-hero-room">
+    <div class="div-desctop">
+      <div class="div-title-btn">
+        <h1 class="title-room-hero">
+          Double <span class="span-fint"> luxury</span> room
+        </h1>
+        <button type="button" class="btn btn-light-theme">VIEW PRICES</button>
+      </div>
+      <div class="responsive slick-room">
+        <div class="slick-card">
+          <picture>
+            <source
+              srcset="/plummy-mimino/assets/room-hero1-9a8065a3.jpg 1x, /plummy-mimino/assets/room-hero1@2x-0d631705.jpg 2x"
+              media="(min-width: 1440px)"
+              type="image/jpeg"
+            />
+            <source
+              srcset="/plummy-mimino/assets/room-hero1-b59110f5.jpg 1x, /plummy-mimino/assets/room-hero1@2x-3f67d3a0.jpg 2x"
+              media="(min-width: 767px)"
+              type="image/jpeg"
+            />
+            <source
+              srcset="/plummy-mimino/assets/room-hero1-988bf9d6.jpg 1x, /plummy-mimino/assets/room-hero1@2x-54ad2285.jpg 2x"
+              media="(max-width: 767px)"
+              type="image/jpeg"
+            />
+            <img src="/plummy-mimino/assets/room-hero1-9a8065a3.jpg" alt="bedroom" />
+          </picture>
+        </div>
+        <div class="slick-card">
+          <picture>
+            <source
+              srcset="/plummy-mimino/assets/room-hero2-f1bad017.jpg 1x, /plummy-mimino/assets/room-hero2@2x-16482883.jpg 2x"
+              media="(min-width: 1440px)"
+              type="image/jpeg"
+            />
+            <source
+              srcset="/plummy-mimino/assets/room-hero2-ea4b51f5.jpg 1x, /plummy-mimino/assets/room-hero2@2x-470b39bb.jpg 2x"
+              media="(min-width: 768px)"
+              type="image/jpeg"
+            />
+            <source
+              srcset="/plummy-mimino/assets/room-hero2-e74d8e16.jpg 1x, /plummy-mimino/assets/room-hero2@2x-5bb80175.jpg 2x"
+              media="(max-width: 767px)"
+              type="image/jpeg"
+            />
+            <img src="/plummy-mimino/assets/room-hero2-f1bad017.jpg" alt="kitchen" />
+          </picture>
+        </div>
+      </div>
+    </div>
+    <div class="div-text">
+      <p class="text-room-hero">
+        The Mimino hotel features spacious and stylish double luxury rooms with
+        modern amenities for a comfortable stay.
+      </p>
+    </div>
+  </div>
+</section>
+
       
     </main>
 

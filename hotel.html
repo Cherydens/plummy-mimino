@@ -25,24 +25,365 @@
 
     <!-- Base Styles -->
     
-    <script type="module" crossorigin src="/plummy-mimino/assets/modal-416ea25c.js"></script>
-    <link rel="stylesheet" href="/plummy-mimino/assets/modal-fc020277.css">
+    <script type="module" crossorigin src="/plummy-mimino/assets/modal-99b2ed47.js"></script>
+    <link rel="stylesheet" href="/plummy-mimino/assets/modal-7b85eb03.css">
   </head>
   <body>
     <!-- Header -->
-    
+    <!--header-->
+<header class="header">
+  <div class="container header-container">
+    <nav class="header-nav">
+      <a class="header-nav-link link current" href="./index.html">home</a>
+      <a class="header-nav-link link" href="./hotel.html">hotel</a>
+      <a class="header-nav-link link" href="./restaurant.html">restaurant</a>
+    </nav>
+    <button class="btn-menu" type="button" js-open-menu>
+      <svg class="icon-menu-open">
+        <use href="../img/icons/sprite.svg#btn-open"></use>
+      </svg>
+    </button>
+    <div class="header-logo-div">
+      <a class="header-logo link" href="./index.html">mimino</a>
+      <p class="header-text">restaurant-hotel complex</p>
+    </div>
+    <ul class="header-list list">
+      <li class="header-soc-item">
+        <a
+          href="https://www.instagram.com"
+          target="_blank"
+          class="header-soc-link"
+        >
+          <svg class="header-soc-icon" width="24" height="24">
+            <use href="../img/icons/sprite.svg#instagram"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="header-soc-item">
+        <a
+          href="https://www.facebook.com"
+          target="_blank"
+          class="header-soc-link"
+        >
+          <svg class="header-soc-icon" width="24" height="24">
+            <use href="../img/icons/sprite.svg#facebook"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="header-soc-item">
+        <a href="https://twitter.com" target="_blank" class="header-soc-link">
+          <svg class="header-soc-icon" width="24" height="24">
+            <use href="../img/icons/sprite.svg#twitter"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
+  </div>
+</header>
+<!---->
+
+<!--mobile menu-->
+<div class="is-hidden" js-menu-container>
+  <div class="menu-container animate__animated animate__bounce">
+    <div class="menu-header">
+      <button class="btn-menu" type="button" js-close-menu>
+        <svg class="icon-menu-close">
+          <use href="../img/icons/sprite.svg#btn-close"></use>
+        </svg>
+      </button>
+      <div class="header-logo-div">
+        <a class="header-logo link" href="">mimino</a>
+        <p class="header-text">restaurant-hotel complex</p>
+      </div>
+      <ul class="menu-tablet-list list">
+        <li>
+          <a href="https://www.instagram.com" target="_blank">
+            <svg class="menu-soc-icon" width="24" height="24">
+              <use href="../img/icons/sprite.svg#instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com" target="_blank">
+            <svg class="menu-soc-icon" width="24" height="24">
+              <use href="../img/icons/sprite.svg#facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="https://twitter.com" target="_blank">
+            <svg class="menu-soc-icon" width="24" height="24">
+              <use href="../img/icons/sprite.svg#twitter"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="menu-nav-soc">
+      <nav class="menu-nav">
+        <a class="menu-nav-link link current" href="#home">home</a>
+        <a class="menu-nav-link link" href="#hotel">hotel</a>
+        <a class="menu-nav-link link" href="#restaurant">restaurant</a>
+      </nav>
+      <ul class="menu-mobile-list list">
+        <li>
+          <a href="https://www.instagram.com" target="_blank">
+            <svg class="menu-soc-icon" width="20" height="20">
+              <use href="../img/icons/sprite.svg#instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com" target="_blank">
+            <svg class="menu-soc-icon" width="20" height="20">
+              <use href="../img/icons/sprite.svg#facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="https://twitter.com" target="_blank">
+            <svg class="menu-soc-icon" width="20" height="20">
+              <use href="../img/icons/sprite.svg#twitter"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
 
 
     <!-- Main -->
     <main>
-      
-      
-      <section class="triple-room-section">
+      <section class="hero-hotel">
+  <div class="container hero-hotel-container">
+    <div class="wrapper hotel-block">
+      <div class="hotel-wrap">
+        <div class="content">
+          <h1 class="hero-title">Hotel</h1>
+          <div class="hero-hotel-buttons">
+            <button type="button" class="btn btn-light-theme">
+              book a room
+            </button>
+            <button type="button" class="btn btn-light-theme">
+              View prices
+            </button>
+          </div>
+        </div>
+
+        <div class="slider-hotel">
+          <div>
+            <picture>
+              <source
+                srcset="/plummy-mimino/assets/hotel-hero1-ab904eae.jpg 1x, /plummy-mimino/assets/hotel-hero1@2x-e19ddfbe.jpg 2x"
+                media="(min-width: 1440px)"
+                type="image/jpeg"
+              />
+
+              <source
+                srcset="/plummy-mimino/assets/hotel-hero1-2b5d50bc.jpg 1x, /plummy-mimino/assets/hotel-hero1@2x-e740c1a1.jpg 2x"
+                media="(min-width: 768px)"
+                type="image/jpeg"
+              />
+
+              <source
+                srcset="/plummy-mimino/assets/hotel-hero1-19e19b32.jpg 1x, /plummy-mimino/assets/hotel-hero1@2x-47f2eb0d.jpg 2x"
+                media="(max-width: 767px)"
+                type="image/jpeg"
+              />
+              <img
+                src="/plummy-mimino/assets/hotel-hero1-ab904eae.jpg"
+                alt="hotel-hero"
+              />
+            </picture>
+          </div>
+          <div>
+            <picture>
+              <source
+                srcset="/plummy-mimino/assets/hotel-hero2-b19cc13c.jpg 1x, /plummy-mimino/assets/hotel-hero2@2x-a3e2b2b2.jpg 2x"
+                media="(min-width: 1440px)"
+                type="image/jpeg"
+              />
+              <source
+                srcset="/plummy-mimino/assets/hotel-hero2-812cf312.jpg 1x, /plummy-mimino/assets/hotel-hero2@2x-7d8e4f5c.jpg 2x"
+                media="(min-width: 768px)"
+                type="image/jpeg"
+              />
+              <source
+                srcset="/plummy-mimino/assets/hotel-hero2-05ae5be8.jpg 1x, /plummy-mimino/assets/hotel-hero2@2x-194a3724.jpg 2x"
+                media="(max-width: 767px)"
+                type="image/jpeg"
+              />
+              <img
+                src="/plummy-mimino/assets/hotel-hero2-b19cc13c.jpg"
+                alt="hotel-hero"
+              />
+            </picture>
+          </div>
+          <div>
+            <picture>
+              <source
+                srcset="/plummy-mimino/assets/hotel-hero3-7b4e524e.jpg 1x, /plummy-mimino/assets/hotel-hero3@2x-09d588b9.jpg 2x"
+                media="(min-width: 1440px)"
+                type="image/jpeg"
+              />
+              <source
+                srcset="/plummy-mimino/assets/hotel-hero3-504c2788.jpg 1x, /plummy-mimino/assets/hotel-hero3@2x-7fbdd6df.jpg 2x"
+                media="(min-width: 768px)"
+                type="image/jpeg"
+              />
+              <source
+                srcset="/plummy-mimino/assets/hotel-hero3-6d587e4e.jpg 1x, /plummy-mimino/assets/hotel-hero3@2x-dc7741c4.jpg 2x"
+                media="(max-width: 767px)"
+                type="image/jpeg"
+              />
+              <img
+                src="/plummy-mimino/assets/hotel-hero3-7b4e524e.jpg"
+                alt="hotel-hero"
+              />
+            </picture>
+          </div>
+        </div>
+      </div>
+      <p class="hero-hotel-text">
+        Whether you're in the mood for a hearty breakfast, a light lunch, or a
+        romantic dinner, our menu has something for everyone.
+      </p>
+    </div>
+  </div>
+</section>
+
+      <section class="double-room-section">
   <div class="container">
-    <ul class="four-seater-list list">
-      <li class="four-seater-item"><img src="" alt="bedroom-photo" /></li>
-      <li class="four-seater-item"><img src="" alt="bathroom-photo" /></li>
-      <li class="four-seater-item"><img src="" alt="kitchen-photo" /></li>
+    <ul class="double-seater-list list">
+    
+      <li class="four-seater-item">
+      <picture>
+      <source srcset="/plummy-mimino/assets/hotel-double-room2-247d20ce.jpg 1x, /plummy-mimino/assets/hotel-double-room2@2x-1757964f.jpg 2x" media="(min-width: 1440px)"
+      type="image/jpeg">
+
+      <source srcset="/plummy-mimino/assets/hotel-double-room2-ba391808.jpg 1x, /plummy-mimino/assets/hotel-double-room2@2x-7d0d7b4c.jpg 2x" media="(min-width: 768px)"
+      type="image/jpeg">
+
+      <source srcset="/plummy-mimino/assets/hotel-double-room1-2e9b98cf.jpg 1x, /plummy-mimino/assets/hotel-double-room1@2x-4dc26664.jpg 2x" media="(max-width: 767px)"
+      type="image/jpeg">
+
+      <img src="/plummy-mimino/assets/hotel-double-room1-2e9b98cf.jpg" alt="kitchen-photo" />
+      </picture>
+      </li>
+
+
+      <li class="four-seater-item">
+      <picture>
+      <source srcset="/plummy-mimino/assets/hotel-double-room3-2dbdee7e.jpg 1x, /plummy-mimino/assets/hotel-double-room3@2x-bc31009a.jpg 2x" media="(min-width: 1440px)"
+      type="image/jpeg">
+
+      <source srcset="/plummy-mimino/assets/hotel-double-room1-22385bee.jpg 1x, /plummy-mimino/assets/hotel-double-room1@2x-e9f74684.jpg 2x" media="(min-width: 768px)"
+      type="image/jpeg">
+
+      <source srcset="/plummy-mimino/assets/hotel-double-room2-f540c4e6.jpg 1x, /plummy-mimino/assets/hotel-double-room2@2x-33048fd1.jpg 2x" media="(max-width: 767px)"
+      type="image/jpeg">
+      <img src="img/jpg/hotel/mobile/hotel-double-room2.jpg " alt="bedroom-photo" />
+      </picture>
+      </li>
+ 
+
+      
+      <li class="four-seater-item">
+      <picture>
+      <source srcset="/plummy-mimino/assets/hotel-double-room1-bad48c9a.jpg 1x, /plummy-mimino/assets/hotel-double-room1@2x-503988bb.jpg 2x" media="(min-width: 1440px)"
+      type="image/jpeg">
+
+      <source srcset="/plummy-mimino/assets/hotel-double-room3-3b2bc953.jpg 1x, /plummy-mimino/assets/hotel-double-room3@2x-68a7b685.jpg 2x" media="(min-width: 768px)"
+      type="image/jpeg">
+
+      <source srcset="/plummy-mimino/assets/hotel-double-room3-ea387f2a.jpg 1x, /plummy-mimino/assets/hotel-double-room3@2x-1688d259.jpg 2x" media="(max-width: 767px)"
+      type="image/jpeg">
+
+      <img src="/plummy-mimino/assets/hotel-double-room3-ea387f2a.jpg" alt="bathroom-photo" />
+      </picture>
+    </li>
+  
+
+
+
+
+    </ul>
+    <div class="double-seater-wrap">
+      <div class="four-seater-wrapper">
+        <h2 class="four-seater-title">double luxary room</h2>
+        <div class="triple-desc-wrap">
+        <p class="seater-desc">
+       Experience luxury in our Double Luxury Room at Mimino Hotel. This spacious room features a comfortable bed, private bathroom, flat-screen TV, and high-speed Wi-Fi. Climate control, blackout curtains, and soundproofing ensure a peaceful night's sleep.
+        </p>
+         <p class="seater-desc">
+       Relax after a busy day at the writing desk or armchair. Book now for a convenient and comfortable stay.
+        </p>
+        </div>
+      </div>
+      <div class="double-seater-buttons">
+        <!-- <button type="button" class="btn btn-light-theme">More details</button> -->
+        <a href="./room.html" class="btn btn-light-theme link">More details</a>
+        <button type="button" class="btn btn-light-theme">View prices</button>
+      </div>
+    </div>
+  </div>
+</section>
+      <!-- <section class="triple-room-section">
+  <div class="container">
+    <ul class="seater-list list">
+
+
+
+      <li class="four-seater-item">
+      <picture>
+      <source srcset="img/jpg/hotel/desktop/hotel-triple-room2.jpg 1x ,
+      img/jpg/hotel/desktop/hotel-triple-room2@2x.jpg 2x" media="(min-width: 1440px)"
+      type="image/jpeg">
+
+      <source srcset="img/jpg/hotel/tablet/hotel-triple-room1.jpg 1x ,
+      img/jpg/hotel/tablet/hotel-triple-room1@2x.jpg 2x" media="(min-width: 768px)"
+      type="image/jpeg">
+
+      <source srcset="img/jpg/hotel/mobile/hotel-triple-room1.jpg 1x ,
+      img/jpg/hotel/mobile/hotel-triple-room1@2x.jpg 2x" media="(max-width: 767px)"
+      type="image/jpeg">
+
+      <img src="img/jpg/hotel/mobile/hotel-triple-room1.jpg" alt="bedroom-photo" />
+      </picture>
+      </li>
+      <li class="four-seater-item">
+      <picture>
+      <source srcset="img/jpg/hotel/desktop/hotel-triple-room3.jpg 1x ,
+      img/jpg/hotel/desktop/hotel-triple-room3@2x.jpg 2x" media="(min-width: 1440px)"
+      type="image/jpeg">
+
+      <source srcset="img/jpg/hotel/tablet/hotel-triple-room2.jpg 1x ,
+      img/jpg/hotel/tablet/hotel-triple-room2@2x.jpg 2x" media="(min-width: 768px)"
+      type="image/jpeg">
+
+      <source srcset="img/jpg/hotel/mobile/hotel-triple-room2.jpg 1x ,
+      img/jpg/hotel/mobile/hotel-triple-room2@2x.jpg 2x" media="(max-width: 767px)"
+      type="image/jpeg">
+      <img src="img/jpg/hotel/mobile/hotel-triple-room2.jpg" alt="bedroom-photo" />
+      </picture>
+      </li>
+      
+      <li class="four-seater-item">
+      <picture>
+      <source srcset="img/jpg/hotel/desktop/hotel-triple-room1.jpg 1x ,
+      img/jpg/hotel/desktop/hotel-triple-room1@2x.jpg 2x" media="(min-width: 1440px)"
+      type="image/jpeg">
+
+      <source srcset="img/jpg/hotel/tablet/hotel-triple-room3.jpg 1x ,
+      img/jpg/hotel/tablet/hotel-triple-room3@2x.jpg 2x" media="(min-width: 768px)"
+      type="image/jpeg">
+
+      <source srcset="img/jpg/hotel/mobile/hotel-triple-room3.jpg 1x ,
+      img/jpg/hotel/mobile/hotel-triple-room3@2x.jpg 2x" media="(max-width: 767px)"
+      type="image/jpeg">
+      <img src="img/jpg/hotel/mobile/hotel-triple-room3.jpg" alt="kitchen-photo" />
+    </li>
     </ul>
     <div class="four-seater-wrap seater-wrapper">
       <div class="four-seater-wrapper">
@@ -57,20 +398,60 @@
         </div>
       </div>
       <div class="seater-buttons">
-        <button type="button" class="btn btn-light-theme">More details</button>
-        <button type="button" class="btn btn-light-theme">View prices</button>
+        <a href="./room.html" class="btn btn-light-theme link">More details</a>
+        <button type="button" class="btn btn-light-theme" js-open-modal data-modal="3">View prices</button>
       </div>
     </div>
   </div>
 </section>
-
+ -->
 
       <section class="four-seater-room-section">
   <div class="container">
-    <ul class="four-seater-list list">
-      <li class="four-seater-item"><img src="" alt="bedroom-photo" /></li>
-      <li class="four-seater-item"><img src="" alt="bathroom-photo" /></li>
-      <li class="four-seater-item"><img src="" alt="kitchen-photo" /></li>
+    <ul class="double-seater-list list">
+      <li class="four-seater-item">
+      <picture>
+      <source srcset="/plummy-mimino/assets/hotel-four-room2-d4dc76d7.jpg 1x, /plummy-mimino/assets/hotel-four-room2@2x-8f8bcc2c.jpg 2x" media="(min-width: 1440px)"
+      type="image/jpeg">
+
+      <source srcset="/plummy-mimino/assets/hotel-four-room2-934e67db.jpg 1x, /plummy-mimino/assets/hotel-four-room2@2x-634ada82.jpg 2x" media="(min-width: 768px)"
+      type="image/jpeg">
+
+      <source srcset="/plummy-mimino/assets/hotel-four-room1-1cf13a86.jpg 1x, /plummy-mimino/assets/hotel-four-room1@2x-1d81155d.jpg 2x" media="(max-width: 767px)"
+      type="image/jpeg">
+
+      <img src="img/jpg/hotel/mobile/hotel-four-room1.jpg " alt="bedroom-photo" />
+      </picture>
+      </li>
+
+      <li class="four-seater-item">
+       <picture>
+      <source srcset="/plummy-mimino/assets/hotel-four-room3-5832c99e.jpg 1x, /plummy-mimino/assets/hotel-four-room3@2x-3a1da67e.jpg 2x" media="(min-width: 1440px)"
+      type="image/jpeg">
+
+      <source srcset="/plummy-mimino/assets/hotel-four-room1-0b343264.jpg 1x, /plummy-mimino/assets/hotel-four-room1@2x-44e03cac.jpg 2x" media="(min-width: 768px)"
+      type="image/jpeg">
+
+      <source srcset="/plummy-mimino/assets/hotel-four-room2-b1388225.jpg 1x, /plummy-mimino/assets/hotel-four-room2@2x-56bff256.jpg 2x" media="(max-width: 767px)"
+      type="image/jpeg">
+      <img src="/plummy-mimino/assets/hotel-four-room2-b1388225.jpg" alt="bathroom-photo" />
+      </picture>
+      </li>
+    
+      <li class="four-seater-item">
+      <picture>
+      <source srcset="/plummy-mimino/assets/hotel-four-room1-bb8db9ea.jpg 1x, /plummy-mimino/assets/hotel-four-room1@2x-c52c7222.jpg 2x" media="(min-width: 1440px)"
+      type="image/jpeg">
+
+      <source srcset="/plummy-mimino/assets/hotel-four-room3-8b2d0fa2.jpg 1x, /plummy-mimino/assets/hotel-four-room3@2x-f8f97a2c.jpg 2x" media="(min-width: 768px)"
+      type="image/jpeg">
+
+      <source srcset="/plummy-mimino/assets/hotel-four-room3-c83f9f0d.jpg 1x, /plummy-mimino/assets/hotel-four-room3@2x-94928fc7.jpg 2x" media="(max-width: 767px)"
+      type="image/jpeg">
+
+      <img src="/plummy-mimino/assets/hotel-four-room3-c83f9f0d.jpg" alt="kitchen-photo" />
+      </picture>
+      </li>
     </ul>
     <div class="four-seater-wrap">
       <div class="four-seater-wrapper">
@@ -83,7 +464,7 @@
         </p>
       </div>
       <div class="four-seater-buttons">
-        <button type="button" class="btn btn-light-theme">More details</button>
+        <a href="./room.html" class="btn btn-light-theme link">More details</a>
         <button type="button" class="btn btn-light-theme">View prices</button>
       </div>
     </div>

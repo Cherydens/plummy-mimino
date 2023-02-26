@@ -25,8 +25,8 @@
 
     <!-- Base Styles -->
     
-    <script type="module" crossorigin src="/plummy-mimino/assets/modal-416ea25c.js"></script>
-    <link rel="stylesheet" href="/plummy-mimino/assets/modal-fc020277.css">
+    <script type="module" crossorigin src="/plummy-mimino/assets/modal-99b2ed47.js"></script>
+    <link rel="stylesheet" href="/plummy-mimino/assets/modal-7b85eb03.css">
   </head>
 
   <body>
@@ -37,13 +37,323 @@
     <a href="./room.html">Room Page</a>
 
     <!-- Header -->
-    
+    <!--header-->
+<header class="header">
+  <div class="container header-container">
+    <nav class="header-nav">
+      <a class="header-nav-link link current" href="./index.html">home</a>
+      <a class="header-nav-link link" href="./hotel.html">hotel</a>
+      <a class="header-nav-link link" href="./restaurant.html">restaurant</a>
+    </nav>
+    <button class="btn-menu" type="button" js-open-menu>
+      <svg class="icon-menu-open">
+        <use href="../img/icons/sprite.svg#btn-open"></use>
+      </svg>
+    </button>
+    <div class="header-logo-div">
+      <a class="header-logo link" href="./index.html">mimino</a>
+      <p class="header-text">restaurant-hotel complex</p>
+    </div>
+    <ul class="header-list list">
+      <li class="header-soc-item">
+        <a
+          href="https://www.instagram.com"
+          target="_blank"
+          class="header-soc-link"
+        >
+          <svg class="header-soc-icon" width="24" height="24">
+            <use href="../img/icons/sprite.svg#instagram"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="header-soc-item">
+        <a
+          href="https://www.facebook.com"
+          target="_blank"
+          class="header-soc-link"
+        >
+          <svg class="header-soc-icon" width="24" height="24">
+            <use href="../img/icons/sprite.svg#facebook"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="header-soc-item">
+        <a href="https://twitter.com" target="_blank" class="header-soc-link">
+          <svg class="header-soc-icon" width="24" height="24">
+            <use href="../img/icons/sprite.svg#twitter"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
+  </div>
+</header>
+<!---->
+
+<!--mobile menu-->
+<div class="is-hidden" js-menu-container>
+  <div class="menu-container animate__animated animate__bounce">
+    <div class="menu-header">
+      <button class="btn-menu" type="button" js-close-menu>
+        <svg class="icon-menu-close">
+          <use href="../img/icons/sprite.svg#btn-close"></use>
+        </svg>
+      </button>
+      <div class="header-logo-div">
+        <a class="header-logo link" href="">mimino</a>
+        <p class="header-text">restaurant-hotel complex</p>
+      </div>
+      <ul class="menu-tablet-list list">
+        <li>
+          <a href="https://www.instagram.com" target="_blank">
+            <svg class="menu-soc-icon" width="24" height="24">
+              <use href="../img/icons/sprite.svg#instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com" target="_blank">
+            <svg class="menu-soc-icon" width="24" height="24">
+              <use href="../img/icons/sprite.svg#facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="https://twitter.com" target="_blank">
+            <svg class="menu-soc-icon" width="24" height="24">
+              <use href="../img/icons/sprite.svg#twitter"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="menu-nav-soc">
+      <nav class="menu-nav">
+        <a class="menu-nav-link link current" href="#home">home</a>
+        <a class="menu-nav-link link" href="#hotel">hotel</a>
+        <a class="menu-nav-link link" href="#restaurant">restaurant</a>
+      </nav>
+      <ul class="menu-mobile-list list">
+        <li>
+          <a href="https://www.instagram.com" target="_blank">
+            <svg class="menu-soc-icon" width="20" height="20">
+              <use href="../img/icons/sprite.svg#instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com" target="_blank">
+            <svg class="menu-soc-icon" width="20" height="20">
+              <use href="../img/icons/sprite.svg#facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="https://twitter.com" target="_blank">
+            <svg class="menu-soc-icon" width="20" height="20">
+              <use href="../img/icons/sprite.svg#twitter"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
 
 
     <!-- Main -->
     <main>
-      
-      
+      <section class="main-page-hero">
+  <div class="main-page-hero-container">
+    <h1 class="main-page-hero-title">Mimino</h1>
+    <div class="hero-page-content">
+      <div class="main-page-hero-buttons">
+        <button type="button" class="btn btn-modal btn-dark-theme">
+          book a room
+        </button>
+        <button type="button" class="btn btn-modal btn-dark-theme">
+          book a table
+        </button>
+      </div>
+      <ul class="main-page-hero-list list">
+        <li class="main-page-hero-list-item">
+          <p class="main-page-hero-desc hero-desc">
+            Whether you're in the mood for a hearty breakfast, a light lunch, or
+            a romantic dinner, our menu has something for <br />
+            everyone.
+          </p>
+        </li>
+        <li class="main-page-hero-list-item">
+          <p class="main-page-hero-desc hero-desc">
+            At Hotel Mimino, we believe that great food should be available to
+            everyone, no matter the time of day.
+          </p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+      <!-- <section class="about-complex">
+  <div class="container">
+    <h2 class="visually-hidden">About a complex</h2>
+    <div class="about-complex-wrap">
+      <div class="about-complex-restaurant-wrap">
+        <picture class="about-complex-restaurant-img">
+          <source
+            srcset="
+              ./img/jpg/home/desktop/home-rest-complex1.jpg    1x,
+              ./img/jpg/home/desktop/home-rest-complex1@2x.jpg 2x
+            "
+            media="(min-width: 1440px)"
+          />
+          <source
+            srcset="
+              ./img/jpg/home/tablet/home-rest-complex1.jpg    1x,
+              ./img/jpg/home/tablet/home-rest-complex1@2x.jpg 2x
+            "
+            media="(min-width: 768px)"
+          />
+
+          <source
+            srcset="
+              ./img/jpg/home/mobile/home-rest-complex1.jpg    1x,
+              ./img/jpg/home/mobile/home-rest-complex1@2x.jpg 2x
+            "
+            media="(max-width: 767px)"
+          />
+          <source srcset="./img 1x, ./img 2x" media="(max-width: 768px)" />
+          <img src="./img/jpg/home/mobile/home-rest-complex1.jpg" alt="1" />
+        </picture>
+
+        <picture class="about-complex-restaurant-img">
+          <source
+            srcset="
+              ./img/jpg/home/desktop/home-rest-complex2.jpg    1x,
+              ./img/jpg/home/desktop/home-rest-complex2@2x.jpg 2x
+            "
+            media="(min-width: 1440px)"
+          />
+
+          <source
+            srcset="
+              ./img/jpg/home/tablet/home-rest-complex2.jpg    1x,
+              ./img/jpg/home/tablet/home-rest-complex2@2x.jpg 2x
+            "
+            media="(min-width: 768px)"
+          />
+
+          <source
+            srcset="
+              ./img/jpg/home/mobile/home-rest-complex2.jpg    1x,
+              ./img/jpg/home/mobile/home-rest-complex2@2x.jpg 2x
+            "
+            media="(max-width: 767px)"
+          />
+
+          <img src="./img/jpg/home/mobile/home-rest-complex2.jpg" alt="2" />
+        </picture>
+
+        <div class="about-complex-restaurant-img">
+          <img
+            src="./img/jpg/home/desktop/girl.jpg"
+            alt="3"
+            width="212px"
+            height="61px"
+          />
+        </div>
+      </div>
+      <div class="about-complex-restaurant-desc">
+        <h3 class="about-complex-title">restaurant-hotel complex</h3>
+        <p class="main-desc">
+          Indulge in a taste of luxury with every bite at Hotel Mimino. From the
+          freshest seafood to the most succulent steaks, every dish is crafted
+          with care to ensure that you enjoy a truly memorable dining
+          experience.
+        </p>
+        <p class="main-desc">
+          Treat yourself to a taste of the good life and come dine with us
+          today!
+        </p>
+      </div>
+    </div>
+    <div class="about-complex-wrap second-wrap">
+      <div class="about-complex-buseiness-wrap">
+        <picture class="about-complex-business-img">
+          <source
+            srcset="
+              ./img/jpg/home/desktop/home-rest-complex4.jpg    1x,
+              ./img/jpg/home/desktop/home-rest-complex4@2x.jpg 2x
+            "
+            media="(min-width: 1440px)"
+          />
+
+          <source
+            srcset="
+              ./img/jpg/home/tablet/home-rest-complex3.jpg    1x,
+              ./img/jpg/home/tablet/home-rest-complex3@2x.jpg 2x
+            "
+            media="(min-width: 768px)"
+          />
+
+          <source
+            srcset="
+              ./img/jpg/home/mobile/home-rest-complex3.jpg    1x,
+              ./img/jpg/home/mobile/home-rest-complex3@2x.jpg 2x
+            "
+            media="(max-width: 767px)"
+          />
+
+          <img src="./img/jpg/home/mobile/home-rest-complex3.jpg" alt="" />
+        </picture>
+        <div class="about-complex-business-img">
+          <img
+            src="./img/jpg/home/desktop/boy.jpg"
+            alt=""
+            width="212px"
+            height="61px"
+          />
+        </div>
+      </div>
+      <div class="about-complex-business-desc">
+        <div>
+          <h3 class="about-complex-title">business class hotel</h3>
+          <p class="main-desc">
+            The Mimino hotel features spacious and stylish double luxury rooms
+            with modern amenities for a comfortable stay.
+          </p>
+        </div>
+        <picture>
+          <source
+            srcset="
+              ./img/jpg/home/desktop/home-rest-complex3.jpg    1x,
+              ./img/jpg/home/desktop/home-rest-complex3@2x.jpg 2x
+            "
+            media="(min-width: 1440px)"
+          />
+
+          <source
+            srcset="
+              ./img/jpg/home/tablet/home-rest-complex4.jpg    1x,
+              ./img/jpg/home/tablet/home-rest-complex4@2x.jpg 2x
+            "
+            media="(min-width: 768px)"
+          />
+
+          <source
+            srcset="
+              ./img/jpg/home/mobile/home-rest-complex4.jpg    1x,
+              ./img/jpg/home/mobile/home-rest-complex4@2x.jpg 2x
+            "
+            media="(max-width: 767px)"
+          />
+          <source srcset="./img 1x, ./img 2x" media="(max-width: 768px)" />
+          <img src="./img/jpg/home/mobile/home-rest-complex4.jpg" alt="" />
+        </picture>
+      </div>
+    </div>
+  </div>
+</section> -->
+
       
       <section class="welcome-block-section">
   <div class="container welcome-block-container">
@@ -90,7 +400,39 @@
   </div>
 </section>
 
-      
+      <section class="hotels-details">
+  <div class="hotels-details-container container">
+    <div class="hotels-details-desc">
+      <h2 class="main-page-title">Hotel</h2>
+      <p class="main-desc">
+        Book your stay with us now and experience the epitome of comfort and
+        luxury at our hotel. We guarantee you'll be thrilled with your decision.
+      </p>
+    </div>
+    <img src="" alt="" />
+    <div class="hotels-details-img">
+      <img src="" alt="" />
+      <img src="" alt="" />
+      <img src="" alt="" />
+      <img src="" alt="" />
+    </div>
+    <div class="responsive">
+      <div><img src="" alt="" /></div>
+      <div><img src="" alt="" /></div>
+    </div>
+    <div class="hotels-details-btn">
+      <button
+        type="submit"
+        class="btn-dark-theme btn js-open-modal"
+        data-modal="2"
+      >
+        Book a room
+      </button>
+      <button type="submit" class="btn-dark-theme btn">View room</button>
+    </div>
+  </div>
+</section>
+
       
     </main>
 
