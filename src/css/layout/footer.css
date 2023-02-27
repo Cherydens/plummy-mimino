@@ -1,0 +1,91 @@
+                            /*--- footer ---*/
+.footer {
+    padding-top: 24px;
+    padding-bottom: 32px;
+    margin-bottom: 32px;
+
+    background-color: var(--light-theme-background-color);
+    border-bottom: 0.5px solid rgba(18, 18, 18, 0.3);
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-nav {
+    display: none;
+}
+
+.footer-logo {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.20;
+    letter-spacing: 0.18em;
+}
+
+.footer-text {
+    margin-top: 3px;
+    font-size: 8px;
+    line-height: 1.25;
+    letter-spacing: 0.18em;
+}
+
+.footer-list {
+    display: flex;
+    gap: 14px;
+}
+
+.footer-soc-icon {
+    width: 20px;
+    height: 20px;
+}
+
+
+
+@media screen and (min-width: 375px) {
+    
+}
+
+@media screen and (min-width: 768px) {
+.footer {
+    padding-top: 32px;
+    margin-bottom: 48px;
+    }
+
+.footer-soc-icon {
+    width: 24px;
+    height: 24px;
+}
+
+}
+
+@media screen and (min-width: 1440px) {
+.footer {
+    padding-top: 44px;
+    padding-bottom: 80px;
+    margin-bottom: 80px;
+}
+
+.footer-container {
+    justify-content: flex-start;
+}
+
+.footer-nav-link {
+    font-size: 14px;
+    line-height: 1.29;
+}
+
+.footer-logo-div {
+    margin-left: 370px;
+    margin-right: auto;
+    text-align: center;
+}
+
+.footer-nav {
+    display: flex;
+    gap: 32px;
+}
+}
+                            /*--- Avtark made it ---*/
+
