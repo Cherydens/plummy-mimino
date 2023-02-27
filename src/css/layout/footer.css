@@ -41,7 +41,13 @@
     height: 20px;
 }
 
+/*--- hover ---*/
 
+.footer-nav-link,
+.footer-logo-link,
+.footer-soc-link:hover {
+    scale: 1.1;
+}
 
 @media screen and (min-width: 375px) {
     
