@@ -33,7 +33,7 @@
 .restaurant-menu-item::after {
   display: inline-block;
   content: '';
-  width: 335px;
+  width: 100%;
   height: 1px;
   background: rgba(255, 255, 255, 0.5);
 }
@@ -155,8 +155,9 @@
 @media screen and (min-width: 1440px) {
   .full-menu {
     display: flex;
-    flex-direction: row;
-    gap: 74px;
+    flex-wrap: wrap;
+    gap: 74px 56px;
+    margin-bottom: 56px;
   }
   .full-menu-desserts-drinks {
     display: flex;
@@ -170,7 +171,7 @@
     margin-bottom: 100px;
   }
   .restaurant-menu-wrapp {
-    margin-bottom: 56px;
+    margin-bottom: 0;
   }
   .restaurant-menu-course-item-desserts {
     margin-bottom: 28px;
