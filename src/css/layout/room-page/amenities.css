@@ -55,7 +55,6 @@
   padding: 8px 40px;
 
   font-family: inherit;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.29;
 
@@ -78,7 +77,7 @@
   .amenities-container {
     position: relative;
   }
-  .amenities-image-wrapper{
+  .amenities-image-wrapper {
     margin-bottom: 0px;
   }
 
@@ -101,6 +100,10 @@
   .amenities-list-general {
     margin-top: 0px;
   }
+
+  .btn-book {
+    padding: 8px 24px;
+  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -111,7 +114,7 @@
 
   .amenities-small-image {
     left: 528px;
-    top: 157px;
+    top: 208px;
   }
 
   .amenities-container {
@@ -120,7 +123,8 @@
 
   .amenities-button {
     position: absolute;
-    bottom: 114px;
+    bottom: 135px;
+    left: 543px;
   }
   .amenities-title {
     font-size: 40px;
@@ -138,9 +142,9 @@
   .amenities-list-general:last-child {
     margin-bottom: 0px;
   }
-  .btn-book {
+  /* .btn-book {
     margin-left: 560px;
-  }
+  } */
   .amenities-content {
     display: flex;
     flex-wrap: wrap;
