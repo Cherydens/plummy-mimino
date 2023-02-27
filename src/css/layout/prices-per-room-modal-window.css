@@ -148,6 +148,18 @@
 }
 
 .modal-btn {
+  padding: 14px 0;
+  max-width: 444px;
+  align-self: center;
+  width: 100%;
+  border: 0.8px solid #f7f7f7;
+  border-radius: 32px;
+  background-color: transparent;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #f7f7f7;
   margin: 0 auto;
 }
 
