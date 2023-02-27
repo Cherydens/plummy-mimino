@@ -1,0 +1,158 @@
+.section-amenities {
+  padding-top: 40px;
+  padding-bottom: 64px;
+  background-color: var(--dark-theme-background-color);
+  color: var(--dark-theme-title-color);
+}
+
+.amenities-title {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  color: var(--dark-theme-title-color);
+  margin-bottom: 28px;
+}
+
+.amenities-list-general {
+  margin-top: 0px;
+  margin-bottom: 40px;
+}
+
+.amenities-list-general:last-child {
+  margin-bottom: 64px;
+}
+
+.amenities-list-item {
+  margin-left: -20px;
+}
+
+.amenities-image-wrapper {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-bottom: 32px;
+}
+
+.amenities-big-image {
+  margin-left: auto;
+}
+
+.amenities-small-image {
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 144px;
+}
+
+.amenities-button {
+  text-align: center;
+}
+
+.btn-book {
+  padding: 8px 40px;
+
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+
+  letter-spacing: -0.02em;
+  text-align: center;
+  text-transform: uppercase;
+
+  border-width: 0.8px;
+  border-style: solid;
+
+  border-radius: 32px;
+  background: transparent;
+}
+
+@media screen and (min-width: 768px) {
+  .section-amenities {
+    padding-bottom: 80px;
+  }
+
+  .amenities-container {
+    position: relative;
+  }
+  .amenities-image-wrapper{
+    margin-bottom: 0px;
+  }
+
+  .amenities-small-image {
+    top: 157px;
+  }
+
+  .amenities-button {
+    position: absolute;
+    bottom: 114px;
+  }
+  .amenities-title {
+    font-size: 40px;
+    margin-bottom: 40px;
+    width: 100%;
+  }
+  .amenities-list-item {
+    font-size: 18px;
+  }
+  .amenities-list-general {
+    margin-top: 0px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .section-amenities {
+    padding-top: 94px;
+    padding-bottom: 100px;
+  }
+
+  .amenities-small-image {
+    left: 528px;
+    top: 157px;
+  }
+
+  .amenities-container {
+    position: relative;
+  }
+
+  .amenities-button {
+    position: absolute;
+    bottom: 114px;
+  }
+  .amenities-title {
+    font-size: 40px;
+    margin-bottom: 40px;
+    width: 100%;
+  }
+  .amenities-list-item {
+    font-size: 18px;
+  }
+  .amenities-list-general {
+    margin: 0;
+    margin-bottom: 0px;
+  }
+
+  .amenities-list-general:last-child {
+    margin-bottom: 0px;
+  }
+  .btn-book {
+    margin-left: 560px;
+  }
+  .amenities-content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .column-menu-amenities {
+    width: 50%;
+    margin-bottom: 100px;
+  }
+  .column-menu-amenities:last-child {
+    margin-bottom: -72px;
+  }
+  .amenities-image-wrapper {
+    margin-bottom: 0px;
+  }
+}
