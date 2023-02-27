@@ -162,7 +162,13 @@
         <h1 class="title-room-hero">
           Double <span class="span-fint"> luxury</span> room
         </h1>
-        <button type="button" class="btn btn-light-theme">VIEW PRICES</button>
+        <button
+          type="button"
+          class="btn btn-light-theme js-open-modal"
+          data-modal="3"
+        >
+          VIEW PRICES
+        </button>
       </div>
       <div class="responsive slick-room">
         <div class="slick-card">
@@ -216,73 +222,82 @@
   </div>
 </section>
 
-      
-<section class="section-amenities">
+      <section class="section-amenities">
   <h2 class="visually-hidden">Amenities & Facilities</h2>
   <div class="amenities-container container">
     <div class="amenities-content">
-     <div class="column-menu-amenities">
-       <h3 class="amenities-title">General Amenities & Facilities:</h3>
-      <ul class="amenities-list-general">
-        <li class="amenities-list-item">24-hour front desk service</li>
-        <li class="amenities-list-item">Daily housekeeping</li>
-        <li class="amenities-list-item">Free Wi-Fi throughout the hotel</li>
-        <li class="amenities-list-item">Elevator access</li>
-        <li class="amenities-list-item">Luggage storage</li>
-        <li class="amenities-list-item">Non-smoking rooms available</li>
-        <li class="amenities-list-item">Meeting rooms for business and events</li>
-        <li class="amenities-list-item">On-site parking (surcharge)</li>
-        <li class="amenities-list-item">Concierge services</li>
-      </ul>
-     </div>
-     <div class="column-menu-amenities">
-      <h3 class="amenities-title">Bathroom:</h3>
-      <ul class="amenities-list-general">
-        <li class="amenities-list-item">Private bathroom with shower</li>
-        <li class="amenities-list-item">Complimentary toiletries</li>
-        <li class="amenities-list-item">Hair dryer</li>
-        <li class="amenities-list-item">Fresh towels daily</li>
-        <li class="amenities-list-item">Deluxe bathrobes (in some room categories)</li>
-      </ul>
-      </div>
-       <div class="column-menu-amenities">
-      <h3 class="amenities-title">Bedroom:</h3>
-      <ul class="amenities-list-general">
-        <li class="amenities-list-item">Comfortable beds with high-quality linens</li>
-        <li class="amenities-list-item">Blackout curtains</li>
-        <li class="amenities-list-item">
-          Climate control (air conditioning and <br/>
-          heating)
-        </li>
-        <li class="amenities-list-item">Safe for valuables</li>
-        <li class="amenities-list-item">Writing desk and chair</li>
-        <li class="amenities-list-item">Flat-screen TV with cable channels</li>
-      </ul>
+      <div class="column-menu-amenities">
+        <h3 class="amenities-title">General Amenities & Facilities:</h3>
+        <ul class="amenities-list-general">
+          <li class="amenities-list-item">24-hour front desk service</li>
+          <li class="amenities-list-item">Daily housekeeping</li>
+          <li class="amenities-list-item">Free Wi-Fi throughout the hotel</li>
+          <li class="amenities-list-item">Elevator access</li>
+          <li class="amenities-list-item">Luggage storage</li>
+          <li class="amenities-list-item">Non-smoking rooms available</li>
+          <li class="amenities-list-item">
+            Meeting rooms for business and events
+          </li>
+          <li class="amenities-list-item">On-site parking (surcharge)</li>
+          <li class="amenities-list-item">Concierge services</li>
+        </ul>
       </div>
       <div class="column-menu-amenities">
-      <h3 class="amenities-title">Kitchen:</h3>
-      <ul class="amenities-list-general">
-        <li class="amenities-list-item">
-          In-room kitchenette (in some room<br />categories)
-        </li>
-        <li class="amenities-list-item">Refrigerator</li>
-        <li class="amenities-list-item">Microwave</li>
-        <li class="amenities-list-item">Electric kettle</li>
-        <li class="amenities-list-item">Cooking utensils and cutlery</li>
-        <li class="amenities-list-item">Dining table and chairs</li>
-      </ul>
+        <h3 class="amenities-title">Bathroom:</h3>
+        <ul class="amenities-list-general">
+          <li class="amenities-list-item">Private bathroom with shower</li>
+          <li class="amenities-list-item">Complimentary toiletries</li>
+          <li class="amenities-list-item">Hair dryer</li>
+          <li class="amenities-list-item">Fresh towels daily</li>
+          <li class="amenities-list-item">
+            Deluxe bathrobes (in some room categories)
+          </li>
+        </ul>
       </div>
       <div class="column-menu-amenities">
-      <h3 class="amenities-title">Media:</h3>
-      <ul class="amenities-list-general">
-        <li class="amenities-list-item">Flat-screen TV with cable channels</li>
-        <li class="amenities-list-item">High-speed Wi-Fi</li>
-        <li class="amenities-list-item">iPod docking station</li>
-        <li class="amenities-list-item">Speaker system</li>
-        <li class="amenities-list-item">
-          Electrical outlets for charging devices.
-        </li>
-      </ul>
+        <h3 class="amenities-title">Bedroom:</h3>
+        <ul class="amenities-list-general">
+          <li class="amenities-list-item">
+            Comfortable beds with high-quality linens
+          </li>
+          <li class="amenities-list-item">Blackout curtains</li>
+          <li class="amenities-list-item">
+            Climate control (air conditioning and <br />
+            heating)
+          </li>
+          <li class="amenities-list-item">Safe for valuables</li>
+          <li class="amenities-list-item">Writing desk and chair</li>
+          <li class="amenities-list-item">
+            Flat-screen TV with cable channels
+          </li>
+        </ul>
+      </div>
+      <div class="column-menu-amenities">
+        <h3 class="amenities-title">Kitchen:</h3>
+        <ul class="amenities-list-general">
+          <li class="amenities-list-item">
+            In-room kitchenette (in some room<br />categories)
+          </li>
+          <li class="amenities-list-item">Refrigerator</li>
+          <li class="amenities-list-item">Microwave</li>
+          <li class="amenities-list-item">Electric kettle</li>
+          <li class="amenities-list-item">Cooking utensils and cutlery</li>
+          <li class="amenities-list-item">Dining table and chairs</li>
+        </ul>
+      </div>
+      <div class="column-menu-amenities">
+        <h3 class="amenities-title">Media:</h3>
+        <ul class="amenities-list-general">
+          <li class="amenities-list-item">
+            Flat-screen TV with cable channels
+          </li>
+          <li class="amenities-list-item">High-speed Wi-Fi</li>
+          <li class="amenities-list-item">iPod docking station</li>
+          <li class="amenities-list-item">Speaker system</li>
+          <li class="amenities-list-item">
+            Electrical outlets for charging devices.
+          </li>
+        </ul>
       </div>
     </div>
 
@@ -324,8 +339,7 @@
           type="image/jpeg"
         />
 
-
-<source
+        <source
           srcset="/plummy-mimino/assets/room-bath1-0e8fc36d.jpg 1x, /plummy-mimino/assets/room-bath1@2x-718f491b.jpg 2x"
           media="(max-width: 767px)"
           type="image/jpeg"
@@ -338,7 +352,13 @@
     </div>
 
     <div class="amenities-button">
-      <button type="button" class="btn-book btn-dark-theme">Book a room</button>
+      <button
+        type="button"
+        class="btn-book btn-dark-theme js-open-modal"
+        data-modal="2"
+      >
+        Book a room
+      </button>
     </div>
   </div>
 </section>
