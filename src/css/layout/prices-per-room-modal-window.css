@@ -109,7 +109,7 @@
   display: block;
   width: 20px;
   height: 20px;
-  background-image: url(../img/icons/arrow.svg);
+  background-image: url(../../img/icons/arrow.svg);
   pointer-events: none;
 }
 
