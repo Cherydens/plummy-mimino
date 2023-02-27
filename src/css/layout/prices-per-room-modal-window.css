@@ -11,6 +11,10 @@
   transition: var(--time-function);
 }
 
+.no-scroll {
+  overflow: hidden;
+}
+
 .modal {
   opacity: 0;
   visibility: hidden;
