@@ -17,6 +17,8 @@
 .amenities-list-general {
   margin-top: 0px;
   margin-bottom: 40px;
+ 
+ 
 }
 
 .amenities-list-general:last-child {
@@ -24,8 +26,10 @@
 }
 
 .amenities-list-item {
+   font-size: 14px;
   margin-left: -20px;
 }
+
 
 .amenities-image-wrapper {
   position: relative;
