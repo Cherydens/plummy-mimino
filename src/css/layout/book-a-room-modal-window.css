@@ -1,6 +1,7 @@
 .modal-price-room {
   overflow: auto;
   height: 100%;
+  max-height: 721px;
 }
 
 .modal-book-a-room-form {
@@ -52,7 +53,7 @@
 .modal-book-a-room-form-inner {
   display: flex;
   gap: 40px 32px;
-  margin-bottom: 80px;
+
   flex-direction: row;
   flex-wrap: wrap;
 }
