@@ -88,6 +88,7 @@ document.addEventListener('DOMContentLoaded', function () {
     document.querySelector('.modal.active').classList.remove('active');
     this.classList.remove('active');
     document.body.classList.remove('modal-open');
+    body.classList.remove('no-scroll');
   });
 }); // end ready
 

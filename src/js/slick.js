@@ -1,3 +1,26 @@
+$('.restaurant-details-slider').slick({
+  // dots: true,
+  prevArrow: '<img class="restaurant-details-slick-prev" src="../img/icons/angle-left.svg" alt="">',
+  nextArrow: '<img class="restaurant-details-slick-next" src="../img/icons/angle-right.svg" alt="">',
+  infinite: true,
+  speed: 300,
+  slidesToScroll: 1,
+  adaptiveHeight: true,
+  slidesToShow: 5,
+  variableWidth: true, 
+
+  responsive: [
+    {
+      breakpoint: 1439,
+      settings: {
+        slidesToShow: 2,
+        variableWidth: true,
+      },
+    },
+  ],
+});
+
+
 $('.room-page-hero-slider').slick({
   // dots: true,
   prevArrow: '<img class="room-page-slick-prev" src="../img/icons/angle-left.svg" alt="">',
