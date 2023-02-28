@@ -17,15 +17,54 @@
   color: var(--light-theme-title-color);
   width: 221px;
 }
-.restaurant-details-slider img {
-  max-width: 158px;
+
+.restaurant-details-slider {
+  position: relative;
+  margin-bottom: 82px;
+}
+
+.restaurant-details-slide {
+  margin-right: 32px;
+  height: 201px;
+}
+
+.restaurant-details-slide img {
+  height: 201px;
+}
+
+.restaurant-details-slick-prev,
+.restaurant-details-slick-next {
+  position: absolute;
+  font-size: 0;
+  width: 24px;
+  height: 24px;
+  bottom: -42px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  transform: scale(1);
+  transition: transform var(--time-function);
+}
+
+.restaurant-details-slick-prev:hover,
+.restaurant-details-slick-next:hover {
+  transform: scale(1.4);
+}
+
+.restaurant-details-slick-prev {
+  left: 0;
+  background-image: url(../../../img/icons/angle-left.svg);
+}
+
+.restaurant-details-slick-next {
+  left: 44px;
+  background-image: url(../../../img/icons/angle-right.svg);
 }
 
 .restaurant-details-btn {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 48px;
   gap: 12px;
 }
 
@@ -36,6 +75,29 @@
     gap: 32px;
     margin-bottom: 80px;
   }
+
+  .restaurant-details-slide img {
+    height: 309px;
+  }
+
+  .restaurant-details-slider {
+    margin-bottom: 108px;
+  }
+
+  .restaurant-details-slide {
+    height: 309px;
+  }
+
+  .restaurant-details-slick-prev,
+  .restaurant-details-slick-next {
+    width: 36px;
+    height: 36px;
+    bottom: -68px;
+  }
+
+  .restaurant-details-slick-next {
+    left: 68px;
+  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -43,14 +105,43 @@
     position: relative;
   }
 
+  .restaurant-details-desc {
+    margin-bottom: 125px;
+  }
+
   .restaurant-details {
-    padding-bottom: 32px;
+    padding-bottom: 113px;
   }
 
   .restaurant-details-btn {
     position: absolute;
     top: 0;
-    right: 15px;
+    right: 30px;
     margin: 0;
+  }
+
+  .restaurant-details-slider {
+    margin-bottom: 0;
+  }
+
+  .restaurant-details-slide {
+    height: 309px;
+  }
+
+  .restaurant-details-slide img {
+    height: 309px;
+  }
+
+  .restaurant-details-slick-prev,
+  .restaurant-details-slick-next {
+    bottom: -87px;
+  }
+
+  .restaurant-details-slick-prev {
+    left: 668px;
+  }
+
+  .restaurant-details-slick-next {
+    left: 736px;
   }
 }
