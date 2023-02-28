@@ -11,15 +11,18 @@
 }
 
 .welcome-block-subtitle {
-  font-size: 14px;
-  line-height: 1.2;
+  max-width: 306px;
   margin-bottom: 32px;
 }
+
 .welcome-block-text {
-  font-size: 14px;
-  line-height: 1.2;
+  width: 100%;
+}
+
+.welcome-block-content {
   margin-bottom: 32px;
 }
+
 .welcome-block-image img {
   object-fit: contain;
 }
@@ -35,11 +38,10 @@
     margin-bottom: 50px;
   }
   .welcome-block-subtitle {
-    width: 100%;
     margin-bottom: 0px;
   }
   .welcome-block-text {
-    width: 100%;
+    width: 366px;
     margin-bottom: 0px;
   }
   .welcome-block-content {
@@ -63,9 +65,14 @@
   }
 
   .welcome-block-subtitle {
-    width: 100%;
+    max-width: 437px;
     margin-bottom: 24px;
   }
+
+  .welcome-block-text {
+    width: 437px;
+  }
+
   .welcome-block-container {
     display: flex;
     flex-direction: row-reverse;
