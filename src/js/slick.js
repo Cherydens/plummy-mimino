@@ -7,25 +7,7 @@ $('.room-page-hero-slider').slick({
   slidesToScroll: 1,
   adaptiveHeight: true,
   slidesToShow: 2,
-  variableWidth: true, // обовязково додається, щоб частина картки заходило за вьюпорт
-
-  // responsive: [
-  //   {
-  //     breakpoint: 1440,
-  //     settings: {
-  //       slidesToShow: 2,
-  //     },
-  //   },
-  //   {
-  //     breakpoint: 768,
-  //     settings: {
-  //       slidesToShow: 2,
-  //     },
-  //   },
-    // You can unslick at a given breakpoint now by adding:
-    // settings: "unslick"
-    // instead of a settings object
-  // ],
+  variableWidth: true, 
 });
 
 $('.restaurant-page-hero-slider').slick({
@@ -37,25 +19,35 @@ $('.restaurant-page-hero-slider').slick({
   slidesToScroll: 1,
   adaptiveHeight: true,
   slidesToShow: 2,
-  variableWidth: true, // обовязково додається, щоб частина картки заходило за вьюпорт
+  variableWidth: true, 
+});
 
-  // responsive: [
-  //   {
-  //     breakpoint: 1440,
-  //     settings: {
-  //       slidesToShow: 2,
-  //     },
-  //   },
-  //   {
-  //     breakpoint: 768,
-  //     settings: {
-  //       slidesToShow: 2,
-  //     },
-  //   },
+$('.full-menu').slick({
+  // dots: true,
+  prevArrow: '<img class="full-menu-slick-prev" src="../img/icons/menu-angle-left.svg" alt="">',
+  nextArrow: '<img class="full-menu-slick-next" src="../img/icons/menu-angle-right.svg" alt="">',
+  infinite: true,
+  speed: 300,
+  slidesToScroll: 1,
+  adaptiveHeight: false,
+  slidesToShow: 1,
+  variableWidth: false, // обовязково додається, щоб частина картки заходило за вьюпорт
+
+  responsive: [
+    {
+      breakpoint: 1440,
+      settings: "unslick",
+    },
+    {
+      breakpoint: 1399,
+      settings: {
+        slidesToShow: 1,
+      },
+    },
     // You can unslick at a given breakpoint now by adding:
     // settings: "unslick"
     // instead of a settings object
-  // ],
+  ],
 });
 
 // http://kenwheeler.github.io/slick/
