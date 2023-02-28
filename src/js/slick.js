@@ -1,7 +1,8 @@
 $('.restaurant-details-slider').slick({
   // dots: true,
-  prevArrow: '<img class="restaurant-details-slick-prev" src="../img/icons/angle-left.svg" alt="">',
-  nextArrow: '<img class="restaurant-details-slick-next" src="../../img/icons/angle-right.svg" alt="">',
+  prevArrow: '<button type="button" class="restaurant-details-slick-prev">&xlarr;</button>',
+  nextArrow: '<button type="button" class="restaurant-details-slick-next">&xrarr;</button>',
+  
   infinite: true,
   speed: 300,
   slidesToScroll: 1,

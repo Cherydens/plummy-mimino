@@ -35,17 +35,22 @@
 .restaurant-details-slick-prev,
 .restaurant-details-slick-next {
   position: absolute;
+  font-size: 0;
   width: 24px;
   height: 24px;
   bottom: -42px;
+  border: none;
+  background-color: transparent;
 }
 
 .restaurant-details-slick-prev {
   left: 0;
+  background-image: url(../../img/icons/angle-left.svg);
 }
 
 .restaurant-details-slick-next {
   left: 44px;
+  background-image: url(../../img/icons/angle-right.svg);
 }
 
 .restaurant-details-btn {
