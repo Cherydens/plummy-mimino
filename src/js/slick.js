@@ -24,18 +24,22 @@ $('.restaurant-details-slider').slick({
 
 $('.room-page-hero-slider').slick({
   // dots: true,
+
+
   prevArrow: '<button type="button" class="room-page-slick-prev">&xlarr;</button>',
   nextArrow: '<button type="button" class="room-page-slick-next">&xrarr;</button>',
+
   infinite: true,
   speed: 300,
   slidesToScroll: 1,
   adaptiveHeight: true,
   slidesToShow: 2,
-  variableWidth: true, 
+  variableWidth: true,
 });
 
 $('.restaurant-page-hero-slider').slick({
   // dots: true,
+
   prevArrow: '<button type="button" class="restaurant-page-slick-prev">&xlarr;</button>',
   nextArrow: '<button type="button" class="restaurant-page-slick-next">&xrarr;</button>',
   infinite: true,
@@ -50,18 +54,21 @@ $('.hotel-page-hero-slider').slick({
   // dots: true,
   prevArrow: '<button type="button" class="hotel-page-slick-prev">&xlarr;</button>',
   nextArrow: '<button type="button" class="hotel-page-slick-next">&xrarr;</button>',
+
   infinite: true,
   speed: 300,
   slidesToScroll: 1,
   adaptiveHeight: true,
   slidesToShow: 2,
-  variableWidth: true, 
+  variableWidth: true,
 });
 
 $('.full-menu').slick({
   // dots: true,
-  prevArrow: '<img class="full-menu-slick-prev" src="../img/icons/menu-angle-left.svg" alt="">',
-  nextArrow: '<img class="full-menu-slick-next" src="../img/icons/menu-angle-right.svg" alt="">',
+  prevArrow:
+    '<img class="full-menu-slick-prev" src="../img/icons/menu-angle-left.svg" alt="">',
+  nextArrow:
+    '<img class="full-menu-slick-next" src="../img/icons/menu-angle-right.svg" alt="">',
   infinite: true,
   speed: 300,
   slidesToScroll: 1,
@@ -72,7 +79,7 @@ $('.full-menu').slick({
   responsive: [
     {
       breakpoint: 1440,
-      settings: "unslick",
+      settings: 'unslick',
     },
     {
       breakpoint: 1399,
