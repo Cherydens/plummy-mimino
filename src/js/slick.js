@@ -1,7 +1,7 @@
 $('.restaurant-details-slider').slick({
   // dots: true,
-  prevArrow: '<img class="restaurant-details-slick-prev" src="../../../../../img/icons/angle-left.svg" alt="">',
-  nextArrow: '<img class="restaurant-details-slick-next" src="/img/icons/angle-right.svg" alt="">',
+  prevArrow: '<img class="restaurant-details-slick-prev" src="../../../img/icons/angle-left.svg" alt="">',
+  nextArrow: '<img class="restaurant-details-slick-next" src="../../../img/icons/angle-right.svg" alt="">',
   infinite: true,
   speed: 300,
   slidesToScroll: 1,
