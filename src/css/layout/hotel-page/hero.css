@@ -26,7 +26,12 @@
 .hotel-page-slick-prev,
 .hotel-page-slick-next {
   position: absolute;
+  font-size: 0;
+  width: 36px;
+  height: 36px;
   bottom: -60px;
+  border: none;
+  background-color: transparent;
   cursor: pointer;
   transform: scale(1);
   transition: transform var(--time-function);
@@ -39,10 +44,12 @@
 
 .hotel-page-slick-prev {
   right: 88px;
+  background-image: url(../../../img/icons/angle-left.svg);
 }
 
 .hotel-page-slick-next {
   right: 20px;
+  background-image: url(../../../img/icons/angle-right.svg);
 }
 
 @media screen and (min-width: 768px) {

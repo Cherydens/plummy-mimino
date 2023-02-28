@@ -48,8 +48,8 @@ $('.restaurant-page-hero-slider').slick({
 
 $('.hotel-page-hero-slider').slick({
   // dots: true,
-  prevArrow: '<img class="hotel-page-slick-prev" src="../img/icons/angle-left.svg" alt="">',
-  nextArrow: '<img class="hotel-page-slick-next" src="../img/icons/angle-right.svg" alt="">',
+  prevArrow: '<button type="button" class="hotel-page-slick-prev">&xlarr;</button>',
+  nextArrow: '<button type="button" class="hotel-page-slick-next">&xrarr;</button>',
   infinite: true,
   speed: 300,
   slidesToScroll: 1,
