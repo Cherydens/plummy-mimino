@@ -17,12 +17,15 @@
   }
 }
 
+.four-seater-wrapper {
+  margin-bottom: 28px;
+}
+
 .four-seater-desc {
   font-size: 14px;
   line-height: 1.29;
   letter-spacing: -0.02em;
   color: var(--light-theme-text-color);
-  margin-bottom: 28px;
 }
 
 .four-seater-buttons {
@@ -31,9 +34,12 @@
 }
 
 @media screen and (min-width: 768px) {
+  .four-seater-wrapper {
+    margin-bottom: 40px;
+  }
+
   .four-seater-desc {
     max-width: 475px;
-    margin-bottom: 40px;
     font-size: 18px;
     line-height: 1.33;
   }
@@ -55,6 +61,11 @@
   .four-seater-wrap {
     display: flex;
   }
+
+  .four-seater-wrapper {
+    margin-bottom: 0px;
+  }
+
   .four-seater-buttons {
     margin-left: auto;
     align-items: start;
@@ -65,11 +76,5 @@
   }
   .four-seater-title {
     margin-bottom: 40px;
-   }
-  .four-seater-desc{
-  margin-bottom: 0;
   }
- }
-
-
-
+}
