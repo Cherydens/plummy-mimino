@@ -22,15 +22,25 @@
   margin-right: 20px;
 }
 
-.restaurant-page-slick-prev {
+.restaurant-page-slick-prev,
+.restaurant-page-slick-next {
   position: absolute;
   bottom: -60px;
+  cursor: pointer;
+  transform: scale(1);
+  transition: transform var(--time-function);
+}
+
+.restaurant-page-slick-prev:hover,
+.restaurant-page-slick-next:hover {
+  transform: scale(1.4);
+}
+
+.restaurant-page-slick-prev {
   right: 88px;
 }
 
 .restaurant-page-slick-next {
-  position: absolute;
-  bottom: -60px;
   right: 20px;
 }
 

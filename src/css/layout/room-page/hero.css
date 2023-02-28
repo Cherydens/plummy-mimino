@@ -27,15 +27,25 @@
   margin-right: 20px;
 }
 
-.room-page-slick-prev {
+.room-page-slick-prev,
+.room-page-slick-next {
   position: absolute;
   bottom: -60px;
+  cursor: pointer;
+  transform: scale(1);
+  transition: transform var(--time-function);
+}
+
+.room-page-slick-prev:hover,
+.room-page-slick-next:hover {
+  transform: scale(1.4);
+}
+
+.room-page-slick-prev {
   right: 88px;
 }
 
 .room-page-slick-next {
-  position: absolute;
-  bottom: -60px;
   right: 20px;
 }
 
