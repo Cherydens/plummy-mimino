@@ -31,24 +31,23 @@
   bottom: -60px;
   border: none;
   background-color: transparent;
-  cursor: pointer;
-  transform: scale(1);
-  transition: transform var(--time-function);
-}
-
-.restaurant-page-slick-prev:hover,
-.restaurant-page-slick-next:hover {
-  transform: scale(1.4);
+  transition: opacity var(--time-function);
 }
 
 .restaurant-page-slick-prev {
   right: 88px;
-  background-image: url(../../../img/icons/angle-left.svg);
+  background-image: url(../../../img/icons/angle-right.svg);
+  transform: rotate(180deg);
 }
 
 .restaurant-page-slick-next {
   right: 20px;
   background-image: url(../../../img/icons/angle-right.svg);
+}
+
+.restaurant-page-slick-prev.slick-disabled,
+.restaurant-page-slick-next.slick-disabled {
+  opacity: 0.3;
 }
 
 .restaurant-hero-text {

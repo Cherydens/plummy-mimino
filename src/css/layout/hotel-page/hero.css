@@ -32,24 +32,23 @@
   bottom: -60px;
   border: none;
   background-color: transparent;
-  cursor: pointer;
-  transform: scale(1);
-  transition: transform var(--time-function);
-}
-
-.hotel-page-slick-prev:hover,
-.hotel-page-slick-next:hover {
-  transform: scale(1.4);
+  transition: opacity var(--time-function);
 }
 
 .hotel-page-slick-prev {
   right: 88px;
-  background-image: url(../../../img/icons/angle-left.svg);
+  background-image: url(../../../img/icons/angle-right.svg);
+  transform: rotate(180deg);
 }
 
 .hotel-page-slick-next {
   right: 20px;
   background-image: url(../../../img/icons/angle-right.svg);
+}
+
+.hotel-page-slick-prev.slick-disabled,
+.hotel-page-slick-next.slick-disabled {
+  opacity: 0.3;
 }
 
 @media screen and (min-width: 768px) {
