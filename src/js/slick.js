@@ -1,31 +1,37 @@
 $('.room-page-hero-slider').slick({
   // dots: true,
-  prevArrow: '<img class="room-page-slick-prev" src="../img/icons/angle-left.svg" alt="">',
-  nextArrow: '<img class="room-page-slick-next" src="../img/icons/angle-right.svg" alt="">',
+  prevArrow:
+    '<img class="room-page-slick-prev" src="../img/icons/angle-left.svg" alt="">',
+  nextArrow:
+    '<img class="room-page-slick-next" src="../img/icons/angle-right.svg" alt="">',
   infinite: true,
   speed: 300,
   slidesToScroll: 1,
   adaptiveHeight: true,
   slidesToShow: 2,
-  variableWidth: true, 
+  variableWidth: true,
 });
 
 $('.restaurant-page-hero-slider').slick({
   // dots: true,
-  prevArrow: '<img class="restaurant-page-slick-prev" src="../img/icons/angle-left.svg" alt="">',
-  nextArrow: '<img class="restaurant-page-slick-next" src="../img/icons/angle-right.svg" alt="">',
+  prevArrow:
+    '<img class="restaurant-page-slick-prev" src="../img/icons/angle-left.svg" alt="">',
+  nextArrow:
+    '<img class="restaurant-page-slick-next" src="../img/icons/angle-right.svg" alt="">',
   infinite: true,
   speed: 300,
   slidesToScroll: 1,
   adaptiveHeight: true,
   slidesToShow: 2,
-  variableWidth: true, 
+  variableWidth: true,
 });
 
 $('.full-menu').slick({
   // dots: true,
-  prevArrow: '<img class="full-menu-slick-prev" src="../img/icons/menu-angle-left.svg" alt="">',
-  nextArrow: '<img class="full-menu-slick-next" src="../img/icons/menu-angle-right.svg" alt="">',
+  prevArrow:
+    '<img class="full-menu-slick-prev" src="../img/icons/menu-angle-left.svg" alt="">',
+  nextArrow:
+    '<img class="full-menu-slick-next" src="../img/icons/menu-angle-right.svg" alt="">',
   infinite: true,
   speed: 300,
   slidesToScroll: 1,
@@ -36,7 +42,7 @@ $('.full-menu').slick({
   responsive: [
     {
       breakpoint: 1440,
-      settings: "unslick",
+      settings: 'unslick',
     },
     {
       breakpoint: 1399,
@@ -68,3 +74,12 @@ $('.full-menu').slick({
 // 5. Задати клас "responsive" на батьківський елемент (div) та огорнути необхідні елементи/картки у теги <div></div>.
 
 //Після цього, при кликі на пагінацію чи перетягування мишкою, картки будуть гортатися
+
+//1440px slider off
+
+var width = $(window).width();
+$(window).resize(function(){
+  if( width > 1440) {
+    $(".slider").slick({...});
+  }}
+);
