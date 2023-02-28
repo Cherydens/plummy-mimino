@@ -41,6 +41,14 @@
   bottom: -42px;
   border: none;
   background-color: transparent;
+  cursor: pointer;
+  transform: scale(1);
+  transition: transform var(--time-function);
+}
+
+.restaurant-details-slick-prev:hover,
+.restaurant-details-slick-next:hover {
+  transform: scale(1.4);
 }
 
 .restaurant-details-slick-prev {

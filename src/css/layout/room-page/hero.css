@@ -30,7 +30,12 @@
 .room-page-slick-prev,
 .room-page-slick-next {
   position: absolute;
+  font-size: 0;
+  width: 36px;
+  height: 36px;
   bottom: -60px;
+  border: none;
+  background-color: transparent;
   cursor: pointer;
   transform: scale(1);
   transition: transform var(--time-function);
@@ -43,10 +48,12 @@
 
 .room-page-slick-prev {
   right: 88px;
+  background-image: url(../../../img/icons/angle-left.svg);
 }
 
 .room-page-slick-next {
   right: 20px;
+  background-image: url(../../../img/icons/angle-right.svg);
 }
 
 .room-page-hero-desc {
