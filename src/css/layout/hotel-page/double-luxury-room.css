@@ -17,13 +17,17 @@
     display: flex;
     column-gap: 19px;
   }
-  .btn{
+  .btn {
     padding: 8px 18px;
     line-height: 1.28;
   }
 }
 
 @media screen and (min-width: 768px) {
+  .double-room-section {
+    padding-top: 80px;
+  }
+
   .double-seater-buttons {
     justify-content: flex-end;
   }
@@ -40,9 +44,9 @@
     justify-content: flex-end;
     gap: 32px;
   }
-  .btn{
-  padding: 8px 24px;
-  line-height: 1.71;
+  .btn {
+    padding: 8px 24px;
+    line-height: 1.71;
   }
 }
 
@@ -82,9 +86,9 @@
     display: flex;
     align-items: start;
   }
-   .btn{
-  padding: 9px 24px;
-  line-height: 1.33;
-  font-size: 18px;
+  .btn {
+    padding: 9px 24px;
+    line-height: 1.33;
+    font-size: 18px;
   }
 }
