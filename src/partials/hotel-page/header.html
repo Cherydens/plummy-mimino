@@ -1,8 +1,8 @@
 <!--header-->
-<header class="header">
+<header id="header" class="header">
   <div class="container header-container">
     <nav class="header-nav">
-      <a class="header-nav-link link" href="./index.html">home</a>
+      <a class="header-nav-link link" href="./index.html#hero">home</a>
       <a class="header-nav-link link current" href="./hotel.html">hotel</a>
       <a class="header-nav-link link" href="./restaurant.html">restaurant</a>
     </nav>
@@ -12,7 +12,7 @@
       </svg>
     </button>
     <div class="header-logo-div">
-      <a class="header-logo link" href="./index.html">mimino</a>
+      <a class="header-logo link" href="./index.html#hero">mimino</a>
       <p class="header-text">restaurant-hotel complex</p>
     </div>
     <ul class="header-list list">
@@ -51,16 +51,16 @@
 <!---->
 
 <!--mobile menu-->
-<div class="is-hidden" js-menu-container>
-  <div class="menu-container animate__animated animate__bounce">
-    <div class="menu-header">
+<div class="menu-container is-hidden" js-menu-container>
+  <div class="menu-header">
+    <div class="menu-header-container container">
       <button class="btn-menu" type="button" js-close-menu>
         <svg class="icon-menu-close">
           <use href="./img/icons/sprite.svg#btn-close"></use>
         </svg>
       </button>
       <div class="header-logo-div">
-        <a class="header-logo link" href="">mimino</a>
+        <a class="header-logo link" href="./index.html">mimino</a>
         <p class="header-text">restaurant-hotel complex</p>
       </div>
       <ul class="menu-tablet-list list">
@@ -87,7 +87,9 @@
         </li>
       </ul>
     </div>
-    <div class="menu-nav-soc">
+  </div>
+  <div class="menu-nav-soc">
+    <div class="menu-nav-soc-container container">
       <nav class="menu-nav">
         <a class="menu-nav-link link" href="./index.html">home</a>
         <a class="menu-nav-link link" href="./hotel.html">hotel</a>

@@ -1,5 +1,5 @@
 .restaurant-hero {
-  padding-top: 40px;
+  padding-top: 118px;
 }
 
 .restaurant-hero-title {
@@ -25,9 +25,9 @@
   }
 }
 
-.restaurant-hero-slider {
+/* .restaurant-hero-slider {
   display: flex;
-}
+} */
 
 @media screen and (max-width: 1439px) {
   .restaurant-hero-slider {

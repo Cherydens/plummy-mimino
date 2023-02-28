@@ -1,5 +1,4 @@
 .main-page-hero {
-  /* position: relative; */
   background-color: var(--dark-theme-background-color);
   padding-top: 507px;
   padding-bottom: 40px;
@@ -72,7 +71,7 @@
 @media screen and (min-width: 768px) {
   .main-page-hero {
     background-color: var(--dark-theme-background-color);
-    padding-top: 528px;
+    padding-top: 606px;
     padding-bottom: 40px;
 
     background-image: linear-gradient(
@@ -83,7 +82,7 @@
       url(../../../img/jpg/home/tablet/home-hero.jpg);
     background-repeat: no-repeat;
     background-size: 542px 710px;
-    background-position: center 50px;
+    background-position: center 128px;
   }
 
   @media (min-device-pixel-ratio: 2),
@@ -150,10 +149,6 @@
         url(../../../img/jpg/home/desktop/home-hero@2x.jpg);
     }
   }
-
-  /* .main-page-hero-container {
-    padding-right: 94px;
-  } */
 
   .main-page-hero-title {
     margin-left: 0;
