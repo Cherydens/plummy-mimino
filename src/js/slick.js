@@ -22,6 +22,18 @@ $('.restaurant-page-hero-slider').slick({
   variableWidth: true, 
 });
 
+$('.hotel-page-hero-slider').slick({
+  // dots: true,
+  prevArrow: '<img class="hotel-page-slick-prev" src="../img/icons/angle-left.svg" alt="">',
+  nextArrow: '<img class="hotel-page-slick-next" src="../img/icons/angle-right.svg" alt="">',
+  infinite: true,
+  speed: 300,
+  slidesToScroll: 1,
+  adaptiveHeight: true,
+  slidesToShow: 2,
+  variableWidth: true, 
+});
+
 $('.full-menu').slick({
   // dots: true,
   prevArrow: '<img class="full-menu-slick-prev" src="../img/icons/menu-angle-left.svg" alt="">',
