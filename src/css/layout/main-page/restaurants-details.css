@@ -45,12 +45,12 @@
 
 .restaurant-details-slick-prev {
   left: 0;
-  background-image: url(../../img/icons/angle-left.svg);
+  background-image: url(../../../img/icons/angle-left.svg);
 }
 
 .restaurant-details-slick-next {
   left: 44px;
-  background-image: url(../../img/icons/angle-right.svg);
+  background-image: url(../../../img/icons/angle-right.svg);
 }
 
 .restaurant-details-btn {
