@@ -171,10 +171,6 @@
   height: 100%;
 }
 
-.js-close-menu {
-  transform: translateX(-100%);
-}
-
 @media screen and (min-width: 375px) {
   .header-logo-div {
     margin-left: 83px;
