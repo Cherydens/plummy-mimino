@@ -42,7 +42,7 @@
   bottom: -42px;
   border: none;
   background-color: transparent;
-  transition: opaciti var(--time-function);
+  transition: opacity var(--time-function);
 }
 
 .restaurant-details-slick-prev {
