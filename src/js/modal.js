@@ -26,36 +26,26 @@
 })(window.Element.prototype);
 
 document.addEventListener('DOMContentLoaded', function () {
-  /* Записываем в переменные массив элементов-кнопок и подложку.
-      Подложке зададим id, чтобы не влиять на другие элементы с классом overlay*/
   var modalButtons = document.querySelectorAll('.js-open-modal'),
     overlay = document.querySelector('.js-backdrop-modal'),
     closeButtons = document.querySelectorAll('.js-modal-close'),
     body = document.querySelector('body');
 
-  /* Перебираем массив кнопок */
   modalButtons.forEach(function (item) {
-    /* Назначаем каждой кнопке обработчик клика */
     item.addEventListener('click', function (e) {
-      /* Предотвращаем стандартное действие элемента. Так как кнопку разные
-            люди могут сделать по-разному. Кто-то сделает ссылку, кто-то кнопку.
-            Нужно подстраховаться. */
       e.preventDefault();
       document.body.classList.add('modal-open');
-      /* При каждом клике на кнопку мы будем забирать содержимое атрибута data-modal
-            и будем искать модальное окно с таким же атрибутом. */
+
       var modalId = this.getAttribute('data-modal'),
         modalElem = document.querySelector(
           '.modal[data-modal="' + modalId + '"]'
         );
 
-      /* После того как нашли нужное модальное окно, добавим классы
-            подложке и окну чтобы показать их. */
       modalElem.classList.add('active');
       overlay.classList.add('active');
       body.classList.add('no-scroll');
-    }); // end click
-  }); // end foreach
+    });
+  });
 
   closeButtons.forEach(function (item) {
     item.addEventListener('click', function (e) {
@@ -65,8 +55,7 @@ document.addEventListener('DOMContentLoaded', function () {
       overlay.classList.remove('active');
       body.classList.remove('no-scroll');
     });
-  }); // end foreach
-
+  });
   document.body.addEventListener(
     'keyup',
     function (e) {
@@ -90,20 +79,7 @@ document.addEventListener('DOMContentLoaded', function () {
     document.body.classList.remove('modal-open');
     body.classList.remove('no-scroll');
   });
-}); // end ready
-
-// 1. На кнопку відкриття модалки доати клас js-open-modal, атрибут data-modal="1" (1 це номер модалки, значення довільне)
-
-// 2. В кінці боді створити один спільний бекдроп  з класом js-overlay-modal, в який вкласти усі модалки
-
-// 3. На кнопки закриття модалок повішати клас js-modal-close
-
-// 4. На саму модалку задати клас modal,
-// 	атрибут data-modal="1" (де 1 це довільне значення, але має співпадати з таким самим атрибутом на кнопці, яка відкривала цю модалку)
-
-// При відкритті модалки на неї і на бекдроп буде додаватися клас active, тому треба відповідні стилі додати на модалку і бекдроп. Є клас active, вони видимі, немає -- невидимі
-
-// mask for phone number
+});
 
 document.addEventListener('DOMContentLoaded', function () {
   var eventCalllback = function (e) {
@@ -138,10 +114,8 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 });
 
-// money-nights
-
 let pricePerUnit = 1000;
 
-document.getElementById('nights').addEventListener('change', e => {
+document.getElementById('nights').addEventListener('change', (e) => {
   document.getElementById('money').innerHTML = e.target.value * pricePerUnit;
 });
