@@ -1,4 +1,4 @@
-# Plummy-Team
+# Mimino
 
 A website of restaurant-hotel complex. Adaptive design, animations, modal windows for booking.
 
